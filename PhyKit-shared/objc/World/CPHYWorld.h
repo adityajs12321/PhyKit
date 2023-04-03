@@ -10,6 +10,7 @@
 #import <SceneKit/SceneKit.h>
 
 @class CPHYRigidBody;
+@class CPHYConstraint;
 @class CPHYTrigger;
 struct PHYVector3;
 
@@ -21,6 +22,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)internalAddRigidBody: (CPHYRigidBody *)rigidBody;
 - (void)internalRemoveRigidBody: (CPHYRigidBody *)rigidBody;
+
+- (void)internalAddConstraint: (CPHYConstraint *)constraint;
+- (void)internalRemoveConstraint: (CPHYConstraint *)constraint;
 
 - (void)internalAddTrigger: (CPHYTrigger *)physicsTrigger;
 - (void)internalRemoveTrigger: (CPHYTrigger *)physicsTrigger;

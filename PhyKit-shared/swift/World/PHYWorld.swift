@@ -37,6 +37,7 @@ public class PHYWorld: CPHYWorld {
 
     private var rigidBodies: Set<PHYRigidBody> = []
     private var triggers: Set<PHYTrigger> = []
+    private var constraints: Set<PHYConstraint> = []
 
     private var collisionPairs: [String : PHYCollisionPair] = [:]
     private var previousCollisionPairs: [String : PHYCollisionPair] = [:]
@@ -60,6 +61,23 @@ public class PHYWorld: CPHYWorld {
         rigidBodies.remove(rigidBody)
         
         internalRemove(rigidBody)
+    }
+    
+    // MARK: Public Functions - Constraints
+    
+    /// Adds a contraint to the simulation
+    /// - Parameters:
+    ///   - constraint: The constraint to add
+    public func add(_ constraint: PHYConstraint) {
+        constraints.insert(constraint)
+        internalAdd(constraint)
+    }
+    
+    /// Removes a constraint from the simulation
+    /// - Parameter constraint: The constraint to be removed from the simulation
+    public func remove(_ constraint: PHYConstraint) {
+        constraints.remove(constraint)
+        internalRemove(constraint)
     }
 
     // MARK: Public Functions - Triggers
@@ -89,9 +107,13 @@ public class PHYWorld: CPHYWorld {
         for trigger in triggers {
             remove(trigger)
         }
+        for constraint in constraints {
+            remove(constraint)
+        }
         internalReset()
         rigidBodies = []
         triggers = []
+        constraints = []
         collisionPairs = [:]
         previousCollisionPairs = [:]
     }

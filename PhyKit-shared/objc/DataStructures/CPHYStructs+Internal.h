@@ -11,6 +11,8 @@
 
 #import "CPHYDependencies+Internal.h"
 
+struct PHYMatrix4;
+
 #ifdef __cplusplus
 extern "C" {
 #endif

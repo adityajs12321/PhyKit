@@ -13,6 +13,8 @@
 #import "CPHYRigidBody+Internal.h"
 #import "CPHYTrigger.h"
 #import "CPHYTrigger+Internal.h"
+#import "CPHYConstraint.h"
+#import "CPHYConstraint+Internal.h"
 
 #import <SceneKit/SceneKit.h>
 
@@ -73,6 +75,16 @@
 - (void)internalRemoveRigidBody: (CPHYRigidBody *)rigidBody {
     _world->removeRigidBody(rigidBody.c_body);
     rigidBody.physicsWorld = nil;
+}
+
+- (void)internalAddConstraint:(CPHYConstraint *)constraint {
+    _world->addConstraint(constraint.constraint);
+    constraint.physicsWorld = self;
+}
+
+- (void)internalRemoveConstraint:(CPHYConstraint *)constraint {
+    _world->removeConstraint(constraint.constraint);
+    constraint.physicsWorld = nil;
 }
 
 - (void)internalAddTrigger: (CPHYTrigger *)physicsTrigger {

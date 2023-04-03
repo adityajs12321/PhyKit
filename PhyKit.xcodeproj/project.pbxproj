@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D4285DC29DB1BDD005EA9BB /* CPHYConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4285DB29DB1BDD005EA9BB /* CPHYConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4285DD29DB1BDD005EA9BB /* CPHYConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4285DB29DB1BDD005EA9BB /* CPHYConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4285DF29DB1D05005EA9BB /* CPHYConstraint.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7D4285DE29DB1D05005EA9BB /* CPHYConstraint.mm */; };
+		7D4285E029DB1D05005EA9BB /* CPHYConstraint.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7D4285DE29DB1D05005EA9BB /* CPHYConstraint.mm */; };
+		7D4285E229DB1E88005EA9BB /* CPHYConstraint+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4285E129DB1E88005EA9BB /* CPHYConstraint+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4285E329DB1E88005EA9BB /* CPHYConstraint+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4285E129DB1E88005EA9BB /* CPHYConstraint+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4285E529DB25AD005EA9BB /* PHYConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4285E429DB25AD005EA9BB /* PHYConstraint.swift */; };
+		7D4285E629DB25AD005EA9BB /* PHYConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4285E429DB25AD005EA9BB /* PHYConstraint.swift */; };
 		F3A560EA25A36A91006D6778 /* PhyKit_osUmbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A560E825A36A91006D6778 /* PhyKit_osUmbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3A560F825A36AA9006D6778 /* PhyKit_osUmbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A560F625A36AA9006D6778 /* PhyKit_osUmbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3A5701B25A376A8006D6778 /* btStaticPlaneShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3A56FE625A37692006D6778 /* btStaticPlaneShape.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
@@ -301,8 +309,8 @@
 		F3A571CA25A37711006D6778 /* btMultiBodyWorldImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3A571BD25A3770B006D6778 /* btMultiBodyWorldImporter.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
 		F3A571EE25A37725006D6778 /* CPHYStructs.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A571CF25A37725006D6778 /* CPHYStructs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3A571EF25A37725006D6778 /* CPHYStructs.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A571CF25A37725006D6778 /* CPHYStructs.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3A571F025A37725006D6778 /* CPHYStructs+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A571D025A37725006D6778 /* CPHYStructs+Internal.h */; };
-		F3A571F125A37725006D6778 /* CPHYStructs+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A571D025A37725006D6778 /* CPHYStructs+Internal.h */; };
+		F3A571F025A37725006D6778 /* CPHYStructs+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A571D025A37725006D6778 /* CPHYStructs+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3A571F125A37725006D6778 /* CPHYStructs+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A571D025A37725006D6778 /* CPHYStructs+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3A571F225A37725006D6778 /* NSValue+CPHYStructs.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A571D125A37725006D6778 /* NSValue+CPHYStructs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3A571F325A37725006D6778 /* NSValue+CPHYStructs.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A571D125A37725006D6778 /* NSValue+CPHYStructs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3A571F425A37725006D6778 /* CPHYStructs.mm in Sources */ = {isa = PBXBuildFile; fileRef = F3A571D225A37725006D6778 /* CPHYStructs.mm */; };
@@ -440,6 +448,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D4285DB29DB1BDD005EA9BB /* CPHYConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPHYConstraint.h; sourceTree = "<group>"; };
+		7D4285DE29DB1D05005EA9BB /* CPHYConstraint.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CPHYConstraint.mm; sourceTree = "<group>"; };
+		7D4285E129DB1E88005EA9BB /* CPHYConstraint+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPHYConstraint+Internal.h"; sourceTree = "<group>"; };
+		7D4285E429DB25AD005EA9BB /* PHYConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHYConstraint.swift; sourceTree = "<group>"; };
 		F3A560E525A36A90006D6778 /* PhyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A560E825A36A91006D6778 /* PhyKit_osUmbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhyKit_osUmbrella.h; sourceTree = "<group>"; };
 		F3A560E925A36A91006D6778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -925,9 +937,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D4285DA29DB1BC5005EA9BB /* Constraints */ = {
+			isa = PBXGroup;
+			children = (
+				7D4285DB29DB1BDD005EA9BB /* CPHYConstraint.h */,
+				7D4285DE29DB1D05005EA9BB /* CPHYConstraint.mm */,
+				7D4285E129DB1E88005EA9BB /* CPHYConstraint+Internal.h */,
+			);
+			path = Constraints;
+			sourceTree = "<group>";
+		};
 		7D55C14029DAB88C0021836F /* Constraints */ = {
 			isa = PBXGroup;
 			children = (
+				7D4285E429DB25AD005EA9BB /* PHYConstraint.swift */,
 			);
 			path = Constraints;
 			sourceTree = "<group>";
@@ -1473,6 +1496,7 @@
 		F3A571CD25A37725006D6778 /* objc */ = {
 			isa = PBXGroup;
 			children = (
+				7D4285DA29DB1BC5005EA9BB /* Constraints */,
 				F3A571CE25A37725006D6778 /* DataStructures */,
 				F3A571D425A37725006D6778 /* Triggers */,
 				F3A571D825A37725006D6778 /* World */,
@@ -1751,6 +1775,7 @@
 				F3A5720825A37725006D6778 /* CPHYCollisionShape.h in Headers */,
 				F3A560EA25A36A91006D6778 /* PhyKit_osUmbrella.h in Headers */,
 				F3A571F825A37725006D6778 /* CPHYTrigger.h in Headers */,
+				7D4285E229DB1E88005EA9BB /* CPHYConstraint+Internal.h in Headers */,
 				F3A571F025A37725006D6778 /* CPHYStructs+Internal.h in Headers */,
 				F3A5720A25A37725006D6778 /* CPHYMesh.h in Headers */,
 				F3A5720625A37725006D6778 /* CPHYCollisionShape+Internal.h in Headers */,
@@ -1763,6 +1788,7 @@
 				F3A5721425A37725006D6778 /* CPHYVertex.h in Headers */,
 				F3A571FE25A37725006D6778 /* CPHYWorld.h in Headers */,
 				F3A5728325A37811006D6778 /* PhyKit.h in Headers */,
+				7D4285DC29DB1BDD005EA9BB /* CPHYConstraint.h in Headers */,
 				F3A5721625A37725006D6778 /* CPHYPolygon.h in Headers */,
 				F3A5721C25A37725006D6778 /* CPHYRigidBody+Internal.h in Headers */,
 			);
@@ -1776,6 +1802,7 @@
 				F3A5720925A37725006D6778 /* CPHYCollisionShape.h in Headers */,
 				F3A560F825A36AA9006D6778 /* PhyKit_osUmbrella.h in Headers */,
 				F3A571F925A37725006D6778 /* CPHYTrigger.h in Headers */,
+				7D4285E329DB1E88005EA9BB /* CPHYConstraint+Internal.h in Headers */,
 				F3A571F125A37725006D6778 /* CPHYStructs+Internal.h in Headers */,
 				F3A5720B25A37725006D6778 /* CPHYMesh.h in Headers */,
 				F3A5720725A37725006D6778 /* CPHYCollisionShape+Internal.h in Headers */,
@@ -1788,6 +1815,7 @@
 				F3A5721525A37725006D6778 /* CPHYVertex.h in Headers */,
 				F3A571FF25A37725006D6778 /* CPHYWorld.h in Headers */,
 				F3A5728625A37811006D6778 /* PhyKit.h in Headers */,
+				7D4285DD29DB1BDD005EA9BB /* CPHYConstraint.h in Headers */,
 				F3A5721725A37725006D6778 /* CPHYPolygon.h in Headers */,
 				F3A5721D25A37725006D6778 /* CPHYRigidBody+Internal.h in Headers */,
 			);
@@ -1974,6 +2002,7 @@
 				F3A5701B25A376A8006D6778 /* btStaticPlaneShape.cpp in Sources */,
 				F3A5716B25A376D1006D6778 /* btSimulationIslandManagerMt.cpp in Sources */,
 				F3A5702A25A376A8006D6778 /* btConvexInternalShape.cpp in Sources */,
+				7D4285E529DB25AD005EA9BB /* PHYConstraint.swift in Sources */,
 				F3A5727025A37773006D6778 /* PHYCollisionShapeGeometry.swift in Sources */,
 				F3A5701E25A376A8006D6778 /* btGjkConvexCast.cpp in Sources */,
 				F3A5715A25A376D1006D6778 /* btHingeConstraint.cpp in Sources */,
@@ -2049,6 +2078,7 @@
 				F3A5716225A376D1006D6778 /* btConeTwistConstraint.cpp in Sources */,
 				F3A5702225A376A8006D6778 /* btCollisionWorldImporter.cpp in Sources */,
 				F3A571C525A37710006D6778 /* btMultiBodyWorldImporter.cpp in Sources */,
+				7D4285DF29DB1D05005EA9BB /* CPHYConstraint.mm in Sources */,
 				F3A5705725A376A8006D6778 /* btConvexConvexAlgorithm.cpp in Sources */,
 				F3A5705C25A376A8006D6778 /* btSphereBoxCollisionAlgorithm.cpp in Sources */,
 				F3A5702C25A376A8006D6778 /* btShapeHull.cpp in Sources */,
@@ -2178,6 +2208,7 @@
 				F3A5707E25A376A9006D6778 /* btStaticPlaneShape.cpp in Sources */,
 				F3A5719625A376D2006D6778 /* btSimulationIslandManagerMt.cpp in Sources */,
 				F3A5708D25A376A9006D6778 /* btConvexInternalShape.cpp in Sources */,
+				7D4285E629DB25AD005EA9BB /* PHYConstraint.swift in Sources */,
 				F3A5727125A37773006D6778 /* PHYCollisionShapeGeometry.swift in Sources */,
 				F3A5708125A376A9006D6778 /* btGjkConvexCast.cpp in Sources */,
 				F3A5718525A376D2006D6778 /* btHingeConstraint.cpp in Sources */,
@@ -2253,6 +2284,7 @@
 				F3A5718D25A376D2006D6778 /* btConeTwistConstraint.cpp in Sources */,
 				F3A5708525A376A9006D6778 /* btCollisionWorldImporter.cpp in Sources */,
 				F3A571CA25A37711006D6778 /* btMultiBodyWorldImporter.cpp in Sources */,
+				7D4285E029DB1D05005EA9BB /* CPHYConstraint.mm in Sources */,
 				F3A570BA25A376A9006D6778 /* btConvexConvexAlgorithm.cpp in Sources */,
 				F3A570BF25A376A9006D6778 /* btSphereBoxCollisionAlgorithm.cpp in Sources */,
 				F3A5708F25A376A9006D6778 /* btShapeHull.cpp in Sources */,
