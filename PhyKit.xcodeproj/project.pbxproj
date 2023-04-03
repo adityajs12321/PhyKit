@@ -925,6 +925,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D55C14029DAB88C0021836F /* Constraints */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constraints;
+			sourceTree = "<group>";
+		};
 		F3A560D925A36A5D006D6778 = {
 			isa = PBXGroup;
 			children = (
@@ -1547,6 +1554,7 @@
 		F3A5722425A37773006D6778 /* swift */ = {
 			isa = PBXGroup;
 			children = (
+				7D55C14029DAB88C0021836F /* Constraints */,
 				F3A5722525A37773006D6778 /* Triggers */,
 				F3A5722825A37773006D6778 /* World */,
 				F3A5722D25A37773006D6778 /* Collisions */,
