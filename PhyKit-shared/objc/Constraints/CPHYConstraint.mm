@@ -37,7 +37,7 @@
         btVector3 aLL = btVector3(angularLowerLimit.x, angularLowerLimit.y, angularLowerLimit.z);
         btVector3 aUL = btVector3(angularUpperLimit.x, angularUpperLimit.y, angularUpperLimit.z);
         _constraint->setAngularLowerLimit(aLL);
-        _constraint->setAngularLowerLimit(aUL);
+        _constraint->setAngularUpperLimit(aUL);
         _constraint->setLinearLowerLimit(btVector3(0, 0, 0));
         _constraint->setLinearUpperLimit(btVector3(0, 0, 0));
         
