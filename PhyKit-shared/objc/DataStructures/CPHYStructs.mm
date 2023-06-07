@@ -101,6 +101,26 @@ PHYMatrix4MakeFrom(btTransform c_transform) {
                         c_transformComponents[15]);
 }
 
+struct PHYMatrix4
+PHYMatrix4MakeFromBTScalar(btScalar matrix[16]) {
+    return PHYMatrix4Make(matrix[0],
+                          matrix[1],
+                          matrix[2],
+                          matrix[3],
+                          matrix[4],
+                          matrix[5],
+                          matrix[6],
+                          matrix[7],
+                          matrix[8],
+                          matrix[9],
+                          matrix[10],
+                          matrix[11],
+                          matrix[12],
+                          matrix[13],
+                          matrix[14],
+                          matrix[15]);
+}
+
 btTransform
 btTransformMakeFrom(PHYMatrix4 transform) {
     btScalar c_transformComponents[16];

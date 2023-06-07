@@ -15,6 +15,7 @@
 #import "CPHYTrigger+Internal.h"
 #import "CPHYConstraint.h"
 #import "CPHYConstraint+Internal.h"
+#import "CPHYWorld+Internal.h"
 
 #import <SceneKit/SceneKit.h>
 
@@ -26,7 +27,7 @@
     btDefaultCollisionConfiguration*        _collisionConfiguration;
     btCollisionDispatcher*                  _dispatcher;
     btSequentialImpulseConstraintSolver*    _solver;
-    btDiscreteDynamicsWorld*                _world;
+//    btDiscreteDynamicsWorld*                _world;
     
 }
 
@@ -70,6 +71,10 @@
 - (void)internalAddRigidBody: (CPHYRigidBody *)rigidBody {
     _world->addRigidBody(rigidBody.c_body);
     rigidBody.physicsWorld = self;
+}
+
+- (void)btInternalAddRigidBody: (btRigidBody *)btrigidbody {
+    _world->addRigidBody(btrigidbody);
 }
 
 - (void)internalRemoveRigidBody: (CPHYRigidBody *)rigidBody {

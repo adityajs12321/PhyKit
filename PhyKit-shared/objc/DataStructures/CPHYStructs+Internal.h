@@ -17,12 +17,13 @@ struct PHYMatrix4;
 extern "C" {
 #endif
 
-extern struct PHYMatrix4 PHYMatrix4MakeFrom(btTransform c_transform);
 
 #ifdef __cplusplus
 }
 #endif
 
+extern struct PHYMatrix4 PHYMatrix4MakeFrom(btTransform c_transform);
+extern struct PHYMatrix4 PHYMatrix4MakeFromBTScalar(btScalar matrix[16]);
 extern struct btTransform btTransformMakeFrom(PHYMatrix4 transform);
 extern struct btTransform btTransformMakeFrom(PHYMatrix4 transform);
 
