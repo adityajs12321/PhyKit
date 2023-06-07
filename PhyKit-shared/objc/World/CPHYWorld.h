@@ -24,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)internalAddRigidBody: (CPHYRigidBody *)rigidBody;
 - (void)internalRemoveRigidBody: (CPHYRigidBody *)rigidBody;
 
-- (void)internalAddConstraint: (CPHYConstraint *)constraint;
+- (void)internalAddConstraint: (CPHYConstraint *)constraint disableColisions:(bool)disableCollisions;
 - (void)internalRemoveConstraint: (CPHYConstraint *)constraint;
 
 - (void)internalAddTrigger: (CPHYTrigger *)physicsTrigger;

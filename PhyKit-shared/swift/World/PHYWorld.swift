@@ -68,9 +68,9 @@ public class PHYWorld: CPHYWorld {
     /// Adds a contraint to the simulation
     /// - Parameters:
     ///   - constraint: The constraint to add
-    public func add(_ constraint: PHYConstraint) {
+    public func add(_ constraint: PHYConstraint, disableCollisions: Bool) {
         constraints.insert(constraint)
-        internalAdd(constraint)
+        internalAdd(constraint, disableColisions: disableCollisions)
     }
     
     /// Removes a constraint from the simulation

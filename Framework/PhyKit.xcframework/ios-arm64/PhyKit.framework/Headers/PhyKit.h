@@ -19,5 +19,7 @@
 #import "CPHYVertex.h"
 #import "CPHYPolygon.h"
 #import "CPHYRigidBody.h"
+#import "CPHYConstraint.h"
+#import "CPHYRaycastVehicle.h"
 
 #endif /* PhyKit_h */

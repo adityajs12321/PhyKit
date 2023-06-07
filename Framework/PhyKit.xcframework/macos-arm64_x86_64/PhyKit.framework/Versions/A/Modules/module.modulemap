@@ -6,6 +6,6 @@ framework module PhyKit {
 }
 
 module PhyKit.Swift {
-    header "PhyKit-Swift.h"
-    requires objc
+  header "PhyKit-Swift.h"
+  requires objc
 }

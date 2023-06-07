@@ -1,4 +1,4 @@
-automaticVersion = '1.0.1'
+automaticVersion = ''
 Pod::Spec.new do |s|
   s.name             = 'PhyKitCocoapod'
   s.version          = automaticVersion

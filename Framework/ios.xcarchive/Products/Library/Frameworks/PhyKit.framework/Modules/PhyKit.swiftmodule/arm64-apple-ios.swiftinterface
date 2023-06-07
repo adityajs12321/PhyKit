@@ -1,11 +1,13 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PhyKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
 @_exported import PhyKit
 import SceneKit
 import Swift
 import _Concurrency
+import _StringProcessing
 public class PHYAction {
   public typealias SetupBlock = ((_ rigidBody: PhyKit.PHYRigidBody) -> (Any?))
   public typealias ActionBlock = ((_ percent: Foundation.TimeInterval, _ rigidBody: PhyKit.PHYRigidBody, _ setupInfo: Any?) -> ())
@@ -142,6 +144,10 @@ public class PHYScene {
   public func iterativelyOrientAllNodesToAttachedRigidBodies()
   @objc deinit
 }
+@objc public class PHYConstraint : PhyKit.CPHYConstraint {
+  public init(rigidBody1: PhyKit.PHYRigidBody, rigidBody2: PhyKit.PHYRigidBody, frameInA: PhyKit.PHYMatrix4, frameInB: PhyKit.PHYMatrix4, useLinearReferenceFrameA: Swift.Bool, angularLowerLimit: PhyKit.PHYVector3, angularUpperLimit: PhyKit.PHYVector3)
+  @objc deinit
+}
 public class PHYCollisionShapeGeometry : PhyKit.PHYCollisionShape {
   public enum PHYCollisionShapeGeometryType {
     case convex
@@ -200,6 +206,8 @@ public class PHYCollisionShapeCylinder : PhyKit.PHYCollisionShape {
   }
   public func add(_ rigidBody: PhyKit.PHYRigidBody)
   public func remove(_ rigidBody: PhyKit.PHYRigidBody)
+  public func add(_ constraint: PhyKit.PHYConstraint, disableCollisions: Swift.Bool)
+  public func remove(_ constraint: PhyKit.PHYConstraint)
   public func add(_ trigger: PhyKit.PHYTrigger)
   public func remove(_ trigger: PhyKit.PHYTrigger)
   public func reset()

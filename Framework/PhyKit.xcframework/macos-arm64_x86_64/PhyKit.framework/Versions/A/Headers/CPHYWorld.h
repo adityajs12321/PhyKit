@@ -10,6 +10,7 @@
 #import <SceneKit/SceneKit.h>
 
 @class CPHYRigidBody;
+@class CPHYConstraint;
 @class CPHYTrigger;
 struct PHYVector3;
 
@@ -18,9 +19,13 @@ NS_ASSUME_NONNULL_BEGIN
 @interface CPHYWorld : NSObject
 
 @property (nonatomic, assign) struct PHYVector3 gravity;
+//@property (nonatomic, readwrite) btDiscreteDynamicsWorld* world;
 
 - (void)internalAddRigidBody: (CPHYRigidBody *)rigidBody;
 - (void)internalRemoveRigidBody: (CPHYRigidBody *)rigidBody;
+
+- (void)internalAddConstraint: (CPHYConstraint *)constraint disableColisions:(bool)disableCollisions;
+- (void)internalRemoveConstraint: (CPHYConstraint *)constraint;
 
 - (void)internalAddTrigger: (CPHYTrigger *)physicsTrigger;
 - (void)internalRemoveTrigger: (CPHYTrigger *)physicsTrigger;

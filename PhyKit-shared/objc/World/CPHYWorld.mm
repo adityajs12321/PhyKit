@@ -82,8 +82,8 @@
     rigidBody.physicsWorld = nil;
 }
 
-- (void)internalAddConstraint:(CPHYConstraint *)constraint {
-    _world->addConstraint(constraint.constraint);
+- (void)internalAddConstraint:(CPHYConstraint *)constraint disableColisions:(bool)disableCollisions {
+    _world->addConstraint(constraint.constraint, disableCollisions);
     constraint.physicsWorld = self;
 }
 
