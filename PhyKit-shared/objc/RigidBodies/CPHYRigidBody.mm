@@ -198,7 +198,7 @@ class CPHYMotionState : public btMotionState {
     }
 }
 
-- (void)setTransform:(PHYMatrix4)transform {
+- (void)setTransform:(struct PHYMatrix4)transform {
     if (_c_body) {
         btTransform c_transform = btTransformMakeFrom(transform);
         _c_body->setWorldTransform(c_transform);

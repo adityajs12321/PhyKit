@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 struct PHYVector3;
+struct PHYMatrix4;
 struct PHYQuaternion;
 
 typedef enum {
@@ -104,6 +105,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// Removes all forces currently applied to this rigid body
 - (void)clearForces;
+
+// Sets the world transform for the object's intial position
+- (void)setTransform:(struct PHYMatrix4)transform;
 
 // Applies a force or impulse to the body at its center of mass
 - (void)applyForce: (struct PHYVector3)force impulse: (BOOL)impulse;
