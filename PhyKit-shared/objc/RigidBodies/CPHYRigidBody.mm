@@ -205,6 +205,13 @@ class CPHYMotionState : public btMotionState {
     }
 }
 
+- (void)setWorldTransform:(struct PHYMatrix4)worldTransform {
+    if (_c_body) {
+        btTransform c_transform = btTransformMakeFrom(worldTransform);
+        _c_body->setWorldTransform(c_transform);
+    }
+}
+
 // MARK: Force Accessors
 
 - (PHYVector3)linearVelocity {

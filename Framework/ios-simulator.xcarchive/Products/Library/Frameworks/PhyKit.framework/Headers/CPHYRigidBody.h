@@ -107,7 +107,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)clearForces;
 
 // Sets the world transform for the object's intial position
-- (void)setTransform:(struct PHYMatrix4)transform;
+- (void)setWorldTransform:(struct PHYMatrix4)worldTransform;
 
 // Applies a force or impulse to the body at its center of mass
 - (void)applyForce: (struct PHYVector3)force impulse: (BOOL)impulse;
