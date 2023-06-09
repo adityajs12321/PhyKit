@@ -262,6 +262,15 @@ SWIFT_CLASS("_TtC6PhyKit13PHYConstraint")
 @end
 
 @class CPHYCollisionShape;
+@class CPHYWorld;
+
+SWIFT_CLASS("_TtC6PhyKit17PHYRaycastVehicle")
+@interface PHYRaycastVehicle : CPHYRaycastVehicle
+- (nonnull instancetype)initWithChassisShape:(CPHYCollisionShape * _Nonnull)chassis_shape world:(CPHYWorld * _Nonnull)world mass:(float)mass wheelWidth:(float)wheelWidth wheelRadius:(float)wheelRadius maxEngineForce:(float)maxEngineForce maxBreakingForce:(float)maxBreakingForce wheelFriction:(float)wheelFriction suspensionStiffness:(float)suspensionStiffness suspensionDamping:(float)suspensionDamping suspensionCompression:(float)suspensionCompression suspensionRestLength:(float)suspensionRestLength rollInfluence:(float)rollInfluence SWIFT_UNAVAILABLE;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 
 /// RigidBody instances are attached to Worlds to represent a rigid body in the simulation.
 SWIFT_CLASS("_TtC6PhyKit12PHYRigidBody")
@@ -561,6 +570,15 @@ SWIFT_CLASS("_TtC6PhyKit13PHYConstraint")
 @end
 
 @class CPHYCollisionShape;
+@class CPHYWorld;
+
+SWIFT_CLASS("_TtC6PhyKit17PHYRaycastVehicle")
+@interface PHYRaycastVehicle : CPHYRaycastVehicle
+- (nonnull instancetype)initWithChassisShape:(CPHYCollisionShape * _Nonnull)chassis_shape world:(CPHYWorld * _Nonnull)world mass:(float)mass wheelWidth:(float)wheelWidth wheelRadius:(float)wheelRadius maxEngineForce:(float)maxEngineForce maxBreakingForce:(float)maxBreakingForce wheelFriction:(float)wheelFriction suspensionStiffness:(float)suspensionStiffness suspensionDamping:(float)suspensionDamping suspensionCompression:(float)suspensionCompression suspensionRestLength:(float)suspensionRestLength rollInfluence:(float)rollInfluence SWIFT_UNAVAILABLE;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 
 /// RigidBody instances are attached to Worlds to represent a rigid body in the simulation.
 SWIFT_CLASS("_TtC6PhyKit12PHYRigidBody")

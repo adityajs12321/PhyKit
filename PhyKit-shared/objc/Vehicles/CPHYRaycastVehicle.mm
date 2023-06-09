@@ -31,7 +31,7 @@
 
 @implementation CPHYRaycastVehicle {}
 
--(instancetype)initWithChassisShape: (CPHYCollisionShape *)chassis_shape world: (CPHYWorld *)world rigidbody: (CPHYRigidBody *)rigidbody lmfao:(CPHYCollisionShape *)lmfao mass:(float)mass wheelWidth:(float)wheelWidth wheelRadius:(float)wheelRadius gEngineForce:(float)gEngineForce gBreakingForce:(float)gBreakingForce maxEngineForce:(float)maxEngineForce maxBreakingForce:(float)maxBreakingForce gVehicleSteeering:(float)gVehicleSteeering steeringIncrement:(float)steeringIncrement steeringClamp:(float)steeringClamp wheelFriction:(float)wheelFriction suspensionStiffness:(float)suspensionStiffness suspensionDamping:(float)suspensionDamping suspensionCompression:(float)suspensionCompression suspensionRestLength:(float)suspensionRestLength rollInfluence:(float)rollInfluence; {
+-(instancetype)initWithChassisShape: (CPHYCollisionShape *)chassis_shape world: (CPHYWorld *)world mass:(float)mass wheelWidth:(float)wheelWidth wheelRadius:(float)wheelRadius  maxEngineForce:(float)maxEngineForce maxBreakingForce:(float)maxBreakingForce wheelFriction:(float)wheelFriction suspensionStiffness:(float)suspensionStiffness suspensionDamping:(float)suspensionDamping suspensionCompression:(float)suspensionCompression suspensionRestLength:(float)suspensionRestLength rollInfluence:(float)rollInfluence; {
     self = [super init];
     if (self) {
         btCompoundShape* compound = new btCompoundShape();
@@ -104,6 +104,34 @@
     //draw wheels
     _m_vehicle->getWheelInfo(wheelIndex).m_worldTransform.getOpenGLMatrix(m);
     return PHYMatrix4MakeFromBTScalar(m);
+}
+
+-(struct PHYMatrix4) getChassisPosition {
+    if (_m_vehicle) {
+        return PHYMatrix4MakeFrom(_m_carChassis->getWorldTransform());
+    } else {
+        return PHYMatrix4MakeIdentity();
+    }
+}
+
+-(void) applyEngineForce:(btScalar)gEngineForce breakingForce:(btScalar)gBreakingForce {
+    if (_m_vehicle) {
+        _m_vehicle->applyEngineForce(gEngineForce, 2);
+        _m_vehicle->setBrake(gBreakingForce, 2);
+        _m_vehicle->applyEngineForce(gEngineForce, 3);
+        _m_vehicle->setBrake(gBreakingForce, 3);
+    } else {
+        
+    }
+}
+
+-(void) steeringValue:(btScalar)gVehicleSteering {
+    if (_m_vehicle) {
+        _m_vehicle->setSteeringValue(gVehicleSteering, 0);
+        _m_vehicle->setSteeringValue(gVehicleSteering, 1);
+    } else {
+        
+    }
 }
 
 @end

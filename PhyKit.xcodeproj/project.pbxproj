@@ -23,6 +23,8 @@
 		7DB0DD7E2A2F37AA009B9F0E /* CPHYRaycastVehicle+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DB0DD7C2A2F37AA009B9F0E /* CPHYRaycastVehicle+Internal.h */; };
 		7DB0DD802A2F67ED009B9F0E /* CPHYWorld+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DB0DD7F2A2F67ED009B9F0E /* CPHYWorld+Internal.h */; };
 		7DB0DD812A2F67ED009B9F0E /* CPHYWorld+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DB0DD7F2A2F67ED009B9F0E /* CPHYWorld+Internal.h */; };
+		7DF2ACEB2A31817400695D96 /* PHYRaycastVehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF2ACEA2A31817400695D96 /* PHYRaycastVehicle.swift */; };
+		7DF2ACEC2A31817400695D96 /* PHYRaycastVehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF2ACEA2A31817400695D96 /* PHYRaycastVehicle.swift */; };
 		F3A560EA25A36A91006D6778 /* PhyKit_osUmbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A560E825A36A91006D6778 /* PhyKit_osUmbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3A560F825A36AA9006D6778 /* PhyKit_osUmbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A560F625A36AA9006D6778 /* PhyKit_osUmbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3A5701B25A376A8006D6778 /* btStaticPlaneShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3A56FE625A37692006D6778 /* btStaticPlaneShape.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
@@ -464,6 +466,7 @@
 		7DB0DD792A2F3613009B9F0E /* CPHYRaycastVehicle.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CPHYRaycastVehicle.mm; sourceTree = "<group>"; };
 		7DB0DD7C2A2F37AA009B9F0E /* CPHYRaycastVehicle+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPHYRaycastVehicle+Internal.h"; sourceTree = "<group>"; };
 		7DB0DD7F2A2F67ED009B9F0E /* CPHYWorld+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPHYWorld+Internal.h"; sourceTree = "<group>"; };
+		7DF2ACEA2A31817400695D96 /* PHYRaycastVehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHYRaycastVehicle.swift; sourceTree = "<group>"; };
 		F3A560E525A36A90006D6778 /* PhyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A560E825A36A91006D6778 /* PhyKit_osUmbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhyKit_osUmbrella.h; sourceTree = "<group>"; };
 		F3A560E925A36A91006D6778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -973,6 +976,14 @@
 				7DB0DD752A2F35D7009B9F0E /* CPHYRaycastVehicle.h */,
 				7DB0DD792A2F3613009B9F0E /* CPHYRaycastVehicle.mm */,
 				7DB0DD7C2A2F37AA009B9F0E /* CPHYRaycastVehicle+Internal.h */,
+			);
+			path = Vehicles;
+			sourceTree = "<group>";
+		};
+		7DF2ACE92A31815C00695D96 /* Vehicles */ = {
+			isa = PBXGroup;
+			children = (
+				7DF2ACEA2A31817400695D96 /* PHYRaycastVehicle.swift */,
 			);
 			path = Vehicles;
 			sourceTree = "<group>";
@@ -1602,6 +1613,7 @@
 		F3A5722425A37773006D6778 /* swift */ = {
 			isa = PBXGroup;
 			children = (
+				7DF2ACE92A31815C00695D96 /* Vehicles */,
 				7D55C14029DAB88C0021836F /* Constraints */,
 				F3A5722525A37773006D6778 /* Triggers */,
 				F3A5722825A37773006D6778 /* World */,
@@ -2147,6 +2159,7 @@
 				F3A5704125A376A8006D6778 /* btMiniSDF.cpp in Sources */,
 				F3A5704425A376A8006D6778 /* btBox2dShape.cpp in Sources */,
 				F3A5715725A376D1006D6778 /* btSliderConstraint.cpp in Sources */,
+				7DF2ACEB2A31817400695D96 /* PHYRaycastVehicle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2354,6 +2367,7 @@
 				F3A570A425A376A9006D6778 /* btMiniSDF.cpp in Sources */,
 				F3A570A725A376A9006D6778 /* btBox2dShape.cpp in Sources */,
 				F3A5718225A376D2006D6778 /* btSliderConstraint.cpp in Sources */,
+				7DF2ACEC2A31817400695D96 /* PHYRaycastVehicle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, readonly) NSMutableArray* lmfao;
 
--(instancetype)initWithChassisShape: (CPHYCollisionShape *)chassis_shape world: (CPHYWorld *)world rigidbody: (CPHYRigidBody *)rigidbody lmfao:(CPHYCollisionShape *)lmfao mass:(float)mass wheelWidth:(float)wheelWidth wheelRadius:(float)wheelRadius gEngineForce:(float)gEngineForce gBreakingForce:(float)gBreakingForce maxEngineForce:(float)maxEngineForce maxBreakingForce:(float)maxBreakingForce gVehicleSteeering:(float)gVehicleSteeering steeringIncrement:(float)steeringIncrement steeringClamp:(float)steeringClamp wheelFriction:(float)wheelFriction suspensionStiffness:(float)suspensionStiffness suspensionDamping:(float)suspensionDamping suspensionCompression:(float)suspensionCompression suspensionRestLength:(float)suspensionRestLength rollInfluence:(float)rollInfluence;
+-(instancetype)initWithChassisShape: (CPHYCollisionShape *)chassis_shape world: (CPHYWorld *)world mass:(float)mass wheelWidth:(float)wheelWidth wheelRadius:(float)wheelRadius maxEngineForce:(float)maxEngineForce maxBreakingForce:(float)maxBreakingForce wheelFriction:(float)wheelFriction suspensionStiffness:(float)suspensionStiffness suspensionDamping:(float)suspensionDamping suspensionCompression:(float)suspensionCompression suspensionRestLength:(float)suspensionRestLength rollInfluence:(float)rollInfluence;
 
 @end
 

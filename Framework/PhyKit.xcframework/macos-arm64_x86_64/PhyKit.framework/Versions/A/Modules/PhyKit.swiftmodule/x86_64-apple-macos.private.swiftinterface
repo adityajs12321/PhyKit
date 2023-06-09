@@ -268,6 +268,10 @@ public class PHYCollisionShapeCompound : PhyKit.PHYCollisionShape {
   public init(collisionShapes: [PhyKit.PHYCollisionShape], transform: PhyKit.PHYMatrix4 = PHYMatrix4MakeIdentity(), margin: Swift.Float = 0.04)
   @objc deinit
 }
+@objc public class PHYRaycastVehicle : PhyKit.CPHYRaycastVehicle {
+  public init(chassis_shape: PhyKit.CPHYCollisionShape, world: PhyKit.CPHYWorld, mass: Swift.Float, wheelWidth: Swift.Float, wheelRadius: Swift.Float, maxEngineForce: Swift.Float, maxBreakingForce: Swift.Float, wheelFriction: Swift.Float, suspensionStiffness: Swift.Float, suspensionDamping: Swift.Float, suspensionCompression: Swift.Float, suspensionRestLength: Swift.Float, rollInfluence: Swift.Float)
+  @objc deinit
+}
 extension PhyKit.PHYRotationMetric : Swift.Equatable {}
 extension PhyKit.PHYRotationMetric : Swift.Hashable {}
 extension PhyKit.PHYCollisionShapeGeometry.PHYCollisionShapeGeometryType : Swift.Equatable {}

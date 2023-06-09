@@ -6013,6 +6013,316 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PHYRaycastVehicle",
+        "printedName": "PHYRaycastVehicle",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(chassis_shape:world:mass:wheelWidth:wheelRadius:maxEngineForce:maxBreakingForce:wheelFriction:suspensionStiffness:suspensionDamping:suspensionCompression:suspensionRestLength:rollInfluence:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PHYRaycastVehicle",
+                "printedName": "PhyKit.PHYRaycastVehicle",
+                "usr": "c:@M@PhyKit@objc(cs)PHYRaycastVehicle"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPHYCollisionShape",
+                "printedName": "PhyKit.CPHYCollisionShape",
+                "usr": "c:objc(cs)CPHYCollisionShape"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPHYWorld",
+                "printedName": "PhyKit.CPHYWorld",
+                "usr": "c:objc(cs)CPHYWorld"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6PhyKit17PHYRaycastVehicleC13chassis_shape5world4mass10wheelWidth0I6Radius14maxEngineForce0l8BreakingN00I8Friction19suspensionStiffness0Q7Damping0Q11Compression0Q10RestLength13rollInfluenceACSo18CPHYCollisionShapeC_So9CPHYWorldCS11ftcfc",
+            "mangledName": "$s6PhyKit17PHYRaycastVehicleC13chassis_shape5world4mass10wheelWidth0I6Radius14maxEngineForce0l8BreakingN00I8Friction19suspensionStiffness0Q7Damping0Q11Compression0Q10RestLength13rollInfluenceACSo18CPHYCollisionShapeC_So9CPHYWorldCS11ftcfc",
+            "moduleName": "PhyKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(chassisShape:world:mass:wheelWidth:wheelRadius:maxEngineForce:maxBreakingForce:wheelFriction:suspensionStiffness:suspensionDamping:suspensionCompression:suspensionRestLength:rollInfluence:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PHYRaycastVehicle",
+                "printedName": "PhyKit.PHYRaycastVehicle",
+                "usr": "c:@M@PhyKit@objc(cs)PHYRaycastVehicle"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPHYCollisionShape",
+                "printedName": "PhyKit.CPHYCollisionShape",
+                "usr": "c:objc(cs)CPHYCollisionShape"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPHYWorld",
+                "printedName": "PhyKit.CPHYWorld",
+                "usr": "c:objc(cs)CPHYWorld"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PhyKit@objc(cs)PHYRaycastVehicle(im)initWithChassisShape:world:mass:wheelWidth:wheelRadius:maxEngineForce:maxBreakingForce:wheelFriction:suspensionStiffness:suspensionDamping:suspensionCompression:suspensionRestLength:rollInfluence:",
+            "mangledName": "$s6PhyKit17PHYRaycastVehicleC12chassisShape5world4mass10wheelWidth0I6Radius14maxEngineForce0l8BreakingN00I8Friction19suspensionStiffness0Q7Damping0Q11Compression0Q10RestLength13rollInfluenceACSo013CPHYCollisionF0C_So9CPHYWorldCS11ftcfc",
+            "moduleName": "PhyKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithChassisShape:world:mass:wheelWidth:wheelRadius:maxEngineForce:maxBreakingForce:wheelFriction:suspensionStiffness:suspensionDamping:suspensionCompression:suspensionRestLength:rollInfluence:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PHYRaycastVehicle",
+                "printedName": "PhyKit.PHYRaycastVehicle",
+                "usr": "c:@M@PhyKit@objc(cs)PHYRaycastVehicle"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PhyKit@objc(cs)PHYRaycastVehicle(im)init",
+            "mangledName": "$s6PhyKit17PHYRaycastVehicleCACycfc",
+            "moduleName": "PhyKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PhyKit@objc(cs)PHYRaycastVehicle",
+        "mangledName": "$s6PhyKit17PHYRaycastVehicleC",
+        "moduleName": "PhyKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)CPHYRaycastVehicle",
+        "superclassNames": [
+          "PhyKit.CPHYRaycastVehicle",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "PHYVector3",
         "printedName": "PHYVector3",
@@ -7273,6 +7583,20 @@
       "offset": 472,
       "length": 4,
       "value": "0.04"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Vehicles\/PHYRaycastVehicle.swift",
+      "kind": "StringLiteral",
+      "offset": 118,
+      "length": 17,
+      "value": "\"PhyKit.PHYRaycastVehicle\""
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Vehicles\/PHYRaycastVehicle.swift",
+      "kind": "StringLiteral",
+      "offset": 118,
+      "length": 17,
+      "value": "\"PhyKit.PHYRaycastVehicle\""
     }
   ]
 }
