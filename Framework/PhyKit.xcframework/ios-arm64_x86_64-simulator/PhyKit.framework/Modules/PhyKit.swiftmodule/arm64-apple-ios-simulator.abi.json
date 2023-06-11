@@ -6030,7 +6030,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(chassis_shape:world:mass:wheelWidth:wheelRadius:maxEngineForce:maxBreakingForce:wheelFriction:suspensionStiffness:suspensionDamping:suspensionCompression:suspensionRestLength:rollInfluence:)",
+            "printedName": "init(chassisShape:world:mass:wheelWidth:wheelRadius:maxEngineForce:maxBreakingForce:wheelFriction:suspensionStiffness:suspensionDamping:suspensionCompression:suspensionRestLength:rollInfluence:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6040,15 +6040,15 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "CPHYCollisionShape",
-                "printedName": "PhyKit.CPHYCollisionShape",
-                "usr": "c:objc(cs)CPHYCollisionShape"
+                "name": "PHYCollisionShape",
+                "printedName": "PhyKit.PHYCollisionShape",
+                "usr": "s:6PhyKit17PHYCollisionShapeP"
               },
               {
                 "kind": "TypeNominal",
-                "name": "CPHYWorld",
-                "printedName": "PhyKit.CPHYWorld",
-                "usr": "c:objc(cs)CPHYWorld"
+                "name": "PHYWorld",
+                "printedName": "PhyKit.PHYWorld",
+                "usr": "c:@M@PhyKit@objc(cs)PHYWorld"
               },
               {
                 "kind": "TypeNominal",
@@ -6118,8 +6118,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6PhyKit17PHYRaycastVehicleC13chassis_shape5world4mass10wheelWidth0I6Radius14maxEngineForce0l8BreakingN00I8Friction19suspensionStiffness0Q7Damping0Q11Compression0Q10RestLength13rollInfluenceACSo18CPHYCollisionShapeC_So9CPHYWorldCS11ftcfc",
-            "mangledName": "$s6PhyKit17PHYRaycastVehicleC13chassis_shape5world4mass10wheelWidth0I6Radius14maxEngineForce0l8BreakingN00I8Friction19suspensionStiffness0Q7Damping0Q11Compression0Q10RestLength13rollInfluenceACSo18CPHYCollisionShapeC_So9CPHYWorldCS11ftcfc",
+            "usr": "s:6PhyKit17PHYRaycastVehicleC12chassisShape5world4mass10wheelWidth0I6Radius14maxEngineForce0l8BreakingN00I8Friction19suspensionStiffness0Q7Damping0Q11Compression0Q10RestLength13rollInfluenceAcA012PHYCollisionF0_p_AA8PHYWorldCS11ftcfc",
+            "mangledName": "$s6PhyKit17PHYRaycastVehicleC12chassisShape5world4mass10wheelWidth0I6Radius14maxEngineForce0l8BreakingN00I8Friction19suspensionStiffness0Q7Damping0Q11Compression0Q10RestLength13rollInfluenceAcA012PHYCollisionF0_p_AA8PHYWorldCS11ftcfc",
             "moduleName": "PhyKit",
             "declAttributes": [
               "AccessControl"

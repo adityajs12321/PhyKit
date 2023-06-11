@@ -31,19 +31,19 @@
 
 @implementation CPHYRaycastVehicle {}
 
--(instancetype)initWithChassisShape: (CPHYCollisionShape *)chassis_shape world: (CPHYWorld *)world mass:(float)mass wheelWidth:(float)wheelWidth wheelRadius:(float)wheelRadius  maxEngineForce:(float)maxEngineForce maxBreakingForce:(float)maxBreakingForce wheelFriction:(float)wheelFriction suspensionStiffness:(float)suspensionStiffness suspensionDamping:(float)suspensionDamping suspensionCompression:(float)suspensionCompression suspensionRestLength:(float)suspensionRestLength rollInfluence:(float)rollInfluence; {
+-(instancetype)initWithChassisShape: (CPHYCollisionShape *)chassisShape world: (CPHYWorld *)world mass:(float)mass wheelWidth:(float)wheelWidth wheelRadius:(float)wheelRadius  maxEngineForce:(float)maxEngineForce maxBreakingForce:(float)maxBreakingForce wheelFriction:(float)wheelFriction suspensionStiffness:(float)suspensionStiffness suspensionDamping:(float)suspensionDamping suspensionCompression:(float)suspensionCompression suspensionRestLength:(float)suspensionRestLength rollInfluence:(float)rollInfluence; {
     self = [super init];
     if (self) {
         btCompoundShape* compound = new btCompoundShape();
         btTransform localTransform;
         localTransform.setIdentity();
         localTransform.setOrigin(btVector3(0,1,0));
-        compound->addChildShape(localTransform, chassis_shape.c_shape);
+        compound->addChildShape(localTransform, chassisShape.c_shape);
         
         btVector3 localInertia(0, 0, 0);
         bool isDynamic = (mass != 0);
-        if (isDynamic) chassis_shape.c_shape->calculateLocalInertia(mass, localInertia);
-        btRigidBody::btRigidBodyConstructionInfo c_constructionInfo = btRigidBody::btRigidBodyConstructionInfo(mass, nil, chassis_shape.c_shape, localInertia);
+        if (isDynamic) chassisShape.c_shape->calculateLocalInertia(mass, localInertia);
+        btRigidBody::btRigidBodyConstructionInfo c_constructionInfo = btRigidBody::btRigidBodyConstructionInfo(mass, nil, chassisShape.c_shape, localInertia);
         c_constructionInfo.m_mass = mass;
         
         _m_carChassis = new btRigidBody(c_constructionInfo);
@@ -108,7 +108,7 @@
 
 -(struct PHYMatrix4) getChassisPosition {
     if (_m_vehicle) {
-        return PHYMatrix4MakeFrom(_m_carChassis->getWorldTransform());
+        return PHYMatrix4MakeFrom(_m_vehicle->getChassisWorldTransform());
     } else {
         return PHYMatrix4MakeIdentity();
     }
@@ -121,7 +121,7 @@
         _m_vehicle->applyEngineForce(gEngineForce, 3);
         _m_vehicle->setBrake(gBreakingForce, 3);
     } else {
-        
+        printf("lmfao get wrekced");
     }
 }
 
