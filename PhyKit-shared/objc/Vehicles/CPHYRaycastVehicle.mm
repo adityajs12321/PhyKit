@@ -114,21 +114,21 @@
     }
 }
 
--(void) applyEngineForce:(btScalar)gEngineForce breakingForce:(btScalar)gBreakingForce {
+-(void) applyVehicleEngineForce:(float)gEngineForce breakingForce:(float)gBreakingForce {
     if (_m_vehicle) {
-        _m_vehicle->applyEngineForce(gEngineForce, 2);
-        _m_vehicle->setBrake(gBreakingForce, 2);
-        _m_vehicle->applyEngineForce(gEngineForce, 3);
-        _m_vehicle->setBrake(gBreakingForce, 3);
+        _m_vehicle->applyEngineForce(btScalar(gEngineForce), 2);
+        _m_vehicle->setBrake(btScalar(gBreakingForce), 2);
+        _m_vehicle->applyEngineForce(btScalar(gEngineForce), 3);
+        _m_vehicle->setBrake(btScalar(gBreakingForce), 3);
     } else {
         printf("lmfao get wrekced");
     }
 }
 
--(void) steeringValue:(btScalar)gVehicleSteering {
+-(void) vehicleSteeringValue:(float)gVehicleSteering {
     if (_m_vehicle) {
-        _m_vehicle->setSteeringValue(gVehicleSteering, 0);
-        _m_vehicle->setSteeringValue(gVehicleSteering, 1);
+        _m_vehicle->setSteeringValue(btScalar(gVehicleSteering), 0);
+        _m_vehicle->setSteeringValue(btScalar(gVehicleSteering), 1);
     } else {
         
     }

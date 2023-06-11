@@ -21,6 +21,8 @@ struct PHYMatrix4;
 
 -(struct PHYMatrix4) getWheelPositions:(int)wheelIndex;
 -(struct PHYMatrix4) getChassisPosition;
+-(void) applyVehicleEngineForce:(float)gEngineForce breakingForce:(float)gBreakingForce;
+-(void) vehicleSteeringValue:(float)gVehicleSteering;
 
 @end
 
