@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @class CPHYWorld;
 struct PHYMatrix4;
 struct PHYVector3;
+struct PHYQuaternion;
 
 @interface CPHYRaycastVehicle : NSObject
 
@@ -24,8 +25,9 @@ struct PHYVector3;
 -(struct PHYMatrix4) getChassisPosition;
 -(void) applyVehicleEngineForce:(float)gEngineForce breakingForce:(float)gBreakingForce;
 -(void) vehicleSteeringValue:(float)gVehicleSteering;
--(struct PHYVector3) eulerOrientation;
--(void) setEulerOrientation:(struct PHYVector3)eulerOrientation;
+
+@property (nonatomic, assign) struct PHYQuaternion orientation;
+@property (nonatomic, assign) struct PHYVector3 eulerOrientation;
 
 @end
 

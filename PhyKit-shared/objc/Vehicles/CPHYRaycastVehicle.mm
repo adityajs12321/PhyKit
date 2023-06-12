@@ -124,6 +124,31 @@
     _m_carChassis->setWorldTransform(c_transform);
 }
 
+-(struct PHYQuaternion) orientation {
+    PHYQuaternion output;
+    if (_m_vehicle) {
+        btTransform c_transform = _m_vehicle->getChassisWorldTransform();
+        btQuaternion c_orientation = c_transform.getRotation();
+        output.x = c_orientation.x();
+        output.y = c_orientation.y();
+        output.z = c_orientation.z();
+        output.w = c_orientation.w();
+    }
+    return output;
+}
+
+- (void)setOrientation:(PHYQuaternion)orientation {
+    if (_m_vehicle) {
+        btTransform c_transform = _m_vehicle->getChassisWorldTransform();
+        
+        btQuaternion c_orientation;
+        c_orientation.setValue(orientation.x, orientation.y, orientation.z, orientation.w);
+        
+        c_transform.setRotation(c_orientation);
+        _m_carChassis->setWorldTransform(c_transform);
+    }
+}
+
 -(struct PHYMatrix4) getChassisPosition {
     if (_m_vehicle) {
         return PHYMatrix4MakeFrom(_m_vehicle->getChassisWorldTransform());
