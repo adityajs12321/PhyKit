@@ -62,39 +62,41 @@
         _m_wheelShape = new btCylinderShapeX(btVector3(wheelWidth,wheelRadius,wheelRadius));
         
         // create vehicle
-        {
-            _m_vehicleRaycaster = new btDefaultVehicleRaycaster(world.world);
-            _m_vehicle = new btRaycastVehicle(_tuning, _m_carChassis, _m_vehicleRaycaster);
-            _m_carChassis->setActivationState(DISABLE_DEACTIVATION);
+        
+        btRaycastVehicle::btVehicleTuning tuning;
+        
+        _m_vehicleRaycaster = new btDefaultVehicleRaycaster(world.world);
+        _m_vehicle = new btRaycastVehicle(tuning, _m_carChassis, _m_vehicleRaycaster);
+        _m_carChassis->setActivationState(DISABLE_DEACTIVATION);
             
-            world.world->addAction(_m_vehicle);
+        world.world->addAction(_m_vehicle);
             
-            float connectionHeight = 1.2f;// needs parametrising
-            _m_vehicle->setCoordinateSystem(rightIndex, upIndex, forwardIndex);
+        float connectionHeight = 1.2f;// needs parametrising
+        _m_vehicle->setCoordinateSystem(rightIndex, upIndex, forwardIndex);
             
-            btVector3 connectionPointCS0(CUBE_HALF_EXTENTS-(0.3*wheelWidth),connectionHeight,2*CUBE_HALF_EXTENTS-wheelRadius);
-            _m_vehicle->addWheel(connectionPointCS0,wheelDirectionCS0,wheelAxleCS,_suspensionRestLength,wheelRadius,_tuning,isFrontWheel); // needs parametrising
+        btVector3 connectionPointCS0(CUBE_HALF_EXTENTS-(0.3*wheelWidth),connectionHeight,2*CUBE_HALF_EXTENTS-wheelRadius);
+        _m_vehicle->addWheel(connectionPointCS0,wheelDirectionCS0,wheelAxleCS,_suspensionRestLength,wheelRadius,_tuning,isFrontWheel); // needs parametrising
             
-            connectionPointCS0 = btVector3(-CUBE_HALF_EXTENTS+(0.3*wheelWidth),connectionHeight,2*CUBE_HALF_EXTENTS-wheelRadius);
-            _m_vehicle->addWheel(connectionPointCS0,wheelDirectionCS0,wheelAxleCS,_suspensionRestLength,wheelRadius,_tuning,isFrontWheel); //needs parametrising
+        connectionPointCS0 = btVector3(-CUBE_HALF_EXTENTS+(0.3*wheelWidth),connectionHeight,2*CUBE_HALF_EXTENTS-wheelRadius);
+        _m_vehicle->addWheel(connectionPointCS0,wheelDirectionCS0,wheelAxleCS,_suspensionRestLength,wheelRadius,_tuning,isFrontWheel); //needs parametrising
             
-            connectionPointCS0 = btVector3(-CUBE_HALF_EXTENTS+(0.3*wheelWidth),connectionHeight,-2*CUBE_HALF_EXTENTS+wheelRadius);
-            isFrontWheel = false;
-            _m_vehicle->addWheel(connectionPointCS0,wheelDirectionCS0,wheelAxleCS,_suspensionRestLength,wheelRadius,_tuning,isFrontWheel);//needs parametrising
+        connectionPointCS0 = btVector3(-CUBE_HALF_EXTENTS+(0.3*wheelWidth),connectionHeight,-2*CUBE_HALF_EXTENTS+wheelRadius);
+        isFrontWheel = false;
+        _m_vehicle->addWheel(connectionPointCS0,wheelDirectionCS0,wheelAxleCS,_suspensionRestLength,wheelRadius,_tuning,isFrontWheel);//needs parametrising
             
-            connectionPointCS0 = btVector3(CUBE_HALF_EXTENTS-(0.3*wheelWidth),connectionHeight,-2*CUBE_HALF_EXTENTS+wheelRadius);
-            _m_vehicle->addWheel(connectionPointCS0,wheelDirectionCS0,wheelAxleCS,_suspensionRestLength,wheelRadius,_tuning,isFrontWheel);//needs parametrising
+        connectionPointCS0 = btVector3(CUBE_HALF_EXTENTS-(0.3*wheelWidth),connectionHeight,-2*CUBE_HALF_EXTENTS+wheelRadius);
+        _m_vehicle->addWheel(connectionPointCS0,wheelDirectionCS0,wheelAxleCS,_suspensionRestLength,wheelRadius,_tuning,isFrontWheel);//needs parametrising
             
-            for (int i=0;i<_m_vehicle->getNumWheels();i++)
-                    {
-                        btWheelInfo& wheel = _m_vehicle->getWheelInfo(i);
-                        wheel.m_suspensionStiffness = suspensionStiffness;
-                        wheel.m_wheelsDampingRelaxation = suspensionDamping;
-                        wheel.m_wheelsDampingCompression = suspensionCompression;
-                        wheel.m_frictionSlip = wheelFriction;
-                        wheel.m_rollInfluence = rollInfluence;
-                    }
-        }
+        for (int i=0;i<_m_vehicle->getNumWheels();i++)
+                {
+                    btWheelInfo& wheel = _m_vehicle->getWheelInfo(i);
+                    wheel.m_suspensionStiffness = suspensionStiffness;
+                    wheel.m_wheelsDampingRelaxation = suspensionDamping;
+                    wheel.m_wheelsDampingCompression = suspensionCompression;
+                    wheel.m_frictionSlip = wheelFriction;
+                    wheel.m_rollInfluence = rollInfluence;
+                }
+        
     }
     return self;
 }
