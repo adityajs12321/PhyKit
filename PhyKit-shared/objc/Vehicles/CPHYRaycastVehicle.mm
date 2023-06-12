@@ -128,6 +128,13 @@
     _m_carChassis->setWorldTransform(c_transform);
 }
 
+-(void) updateVehicleWheelTransforms {
+    int i;
+    for (i = 0; i<_m_vehicle->getNumWheels(); i++) {
+        _m_vehicle->updateWheelTransform(i, true);
+    }
+}
+
 -(struct PHYQuaternion) orientation {
     PHYQuaternion output;
     if (_m_vehicle) {
