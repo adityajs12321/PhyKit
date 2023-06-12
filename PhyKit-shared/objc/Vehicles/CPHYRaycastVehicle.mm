@@ -116,6 +116,14 @@
     return output;
 }
 
+-(void) setEulerOrientation:(struct PHYVector3)eulerOrientation {
+    btTransform c_transform = _m_vehicle->getChassisWorldTransform();
+    btQuaternion c_orientation = c_transform.getRotation();
+    c_orientation.setEulerZYX(eulerOrientation.z, eulerOrientation.y, eulerOrientation.x);
+    c_transform.setRotation(c_orientation);
+    _m_carChassis->setWorldTransform(c_transform);
+}
+
 -(struct PHYMatrix4) getChassisPosition {
     if (_m_vehicle) {
         return PHYMatrix4MakeFrom(_m_vehicle->getChassisWorldTransform());

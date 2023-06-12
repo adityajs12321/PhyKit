@@ -25,6 +25,7 @@ struct PHYVector3;
 -(void) applyVehicleEngineForce:(float)gEngineForce breakingForce:(float)gBreakingForce;
 -(void) vehicleSteeringValue:(float)gVehicleSteering;
 -(struct PHYVector3) eulerOrientation;
+-(void) setEulerOrientation:(struct PHYVector3)eulerOrientation;
 
 @end
 
