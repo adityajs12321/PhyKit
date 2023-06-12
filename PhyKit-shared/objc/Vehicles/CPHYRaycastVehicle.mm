@@ -48,7 +48,7 @@
         
         _m_carChassis = new btRigidBody(c_constructionInfo);
         _m_carChassis->setUserPointer((__bridge void*)self);
-//        world.world->addRigidBody(_m_carChassis);
+        world.world->addRigidBody(_m_carChassis);
         
         rightIndex = 0;
         upIndex = 1;
@@ -69,23 +69,23 @@
         _m_vehicle = new btRaycastVehicle(tuning, _m_carChassis, _m_vehicleRaycaster);
         _m_carChassis->setActivationState(DISABLE_DEACTIVATION);
             
-        world.world->addAction(_m_vehicle);
+        world.world->addVehicle(_m_vehicle);
             
         float connectionHeight = 1.2f;// needs parametrising
         _m_vehicle->setCoordinateSystem(rightIndex, upIndex, forwardIndex);
             
         btVector3 connectionPointCS0(CUBE_HALF_EXTENTS-(0.3*wheelWidth),connectionHeight,2*CUBE_HALF_EXTENTS-wheelRadius);
-        _m_vehicle->addWheel(connectionPointCS0,wheelDirectionCS0,wheelAxleCS,_suspensionRestLength,wheelRadius,_tuning,isFrontWheel); // needs parametrising
+        _m_vehicle->addWheel(connectionPointCS0,wheelDirectionCS0,wheelAxleCS,_suspensionRestLength,wheelRadius,tuning,isFrontWheel); // needs parametrising
             
         connectionPointCS0 = btVector3(-CUBE_HALF_EXTENTS+(0.3*wheelWidth),connectionHeight,2*CUBE_HALF_EXTENTS-wheelRadius);
-        _m_vehicle->addWheel(connectionPointCS0,wheelDirectionCS0,wheelAxleCS,_suspensionRestLength,wheelRadius,_tuning,isFrontWheel); //needs parametrising
+        _m_vehicle->addWheel(connectionPointCS0,wheelDirectionCS0,wheelAxleCS,_suspensionRestLength,wheelRadius,tuning,isFrontWheel); //needs parametrising
             
         connectionPointCS0 = btVector3(-CUBE_HALF_EXTENTS+(0.3*wheelWidth),connectionHeight,-2*CUBE_HALF_EXTENTS+wheelRadius);
         isFrontWheel = false;
-        _m_vehicle->addWheel(connectionPointCS0,wheelDirectionCS0,wheelAxleCS,_suspensionRestLength,wheelRadius,_tuning,isFrontWheel);//needs parametrising
+        _m_vehicle->addWheel(connectionPointCS0,wheelDirectionCS0,wheelAxleCS,_suspensionRestLength,wheelRadius,tuning,isFrontWheel);//needs parametrising
             
         connectionPointCS0 = btVector3(CUBE_HALF_EXTENTS-(0.3*wheelWidth),connectionHeight,-2*CUBE_HALF_EXTENTS+wheelRadius);
-        _m_vehicle->addWheel(connectionPointCS0,wheelDirectionCS0,wheelAxleCS,_suspensionRestLength,wheelRadius,_tuning,isFrontWheel);//needs parametrising
+        _m_vehicle->addWheel(connectionPointCS0,wheelDirectionCS0,wheelAxleCS,_suspensionRestLength,wheelRadius,tuning,isFrontWheel);//needs parametrising
             
         for (int i=0;i<_m_vehicle->getNumWheels();i++)
                 {

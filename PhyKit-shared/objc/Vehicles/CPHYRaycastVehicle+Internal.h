@@ -12,12 +12,11 @@
 
 @interface CPHYRaycastVehicle ()
 
-@property (nonatomic, readonly) btRaycastVehicle* vehicle;
 @property (nonatomic, assign) btScalar suspensionRestLength;
-@property (nonatomic, readonly) btRaycastVehicle::btVehicleTuning tuning;
+//@property (nonatomic, readonly) btRaycastVehicle::btVehicleTuning tuning;
 @property (nonatomic, readonly) btRigidBody* m_carChassis;
 @property (nonatomic, readonly) btCollisionShape* m_wheelShape;
-@property (nonatomic, readonly) btVehicleRaycaster* m_vehicleRaycaster;
+@property (nonatomic, assign) btVehicleRaycaster* m_vehicleRaycaster;
 @property (nonatomic, readonly) btRaycastVehicle* m_vehicle;
 
 @end
