@@ -67,7 +67,7 @@
             _m_vehicle = new btRaycastVehicle(_tuning, _m_carChassis, _m_vehicleRaycaster);
             _m_carChassis->setActivationState(DISABLE_DEACTIVATION);
             
-            world.world->addVehicle(_m_vehicle);
+            world.world->addAction(_m_vehicle);
             
             float connectionHeight = 1.2f;// needs parametrising
             _m_vehicle->setCoordinateSystem(rightIndex, upIndex, forwardIndex);
