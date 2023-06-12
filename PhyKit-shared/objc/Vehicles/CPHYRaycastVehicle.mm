@@ -48,7 +48,7 @@
         
         _m_carChassis = new btRigidBody(c_constructionInfo);
         _m_carChassis->setUserPointer((__bridge void*)self);
-        [world btInternalAddRigidBody:_m_carChassis];
+        world.world->addRigidBody(_m_carChassis);
         
         rightIndex = 0;
         upIndex = 1;
