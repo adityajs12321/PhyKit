@@ -106,6 +106,16 @@
     return PHYMatrix4MakeFromBTScalar(m);
 }
 
+-(struct PHYVector3) eulerOrientation {
+    PHYVector3 output;
+    if (_m_vehicle) {
+        btTransform c_transform = _m_vehicle->getChassisWorldTransform();
+        btQuaternion c_orientation = c_transform.getRotation();
+        c_orientation.getEulerZYX(output.z, output.y, output.x);
+    }
+    return output;
+}
+
 -(struct PHYMatrix4) getChassisPosition {
     if (_m_vehicle) {
         return PHYMatrix4MakeFrom(_m_vehicle->getChassisWorldTransform());
