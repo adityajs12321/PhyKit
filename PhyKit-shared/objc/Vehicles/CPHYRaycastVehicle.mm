@@ -16,7 +16,7 @@
 #import "CPHYStructs.h"
 #import "CPHYStructs+Internal.h"
 
-#define CUBE_HALF_EXTENTS 0.5
+#define CUBE_HALF_EXTENTS 1
 
 @interface CPHYRaycastVehicle() {
     int rightIndex;
@@ -75,17 +75,17 @@
         _m_vehicle->setCoordinateSystem(rightIndex, upIndex, forwardIndex);
             
         btVector3 connectionPointCS0(CUBE_HALF_EXTENTS-(0.3*wheelWidth),connectionHeight,2*CUBE_HALF_EXTENTS-wheelRadius);
-        _m_vehicle->addWheel(connectionPointCS0,wheelDirectionCS0,wheelAxleCS,_suspensionRestLength,wheelRadius,tuning,isFrontWheel); // needs parametrising
+        _m_vehicle->addWheel(connectionPointCS0,wheelDirectionCS0,wheelAxleCS,_suspensionRestLength,wheelRadius,tuning,true); // needs parametrising
             
         connectionPointCS0 = btVector3(-CUBE_HALF_EXTENTS+(0.3*wheelWidth),connectionHeight,2*CUBE_HALF_EXTENTS-wheelRadius);
-        _m_vehicle->addWheel(connectionPointCS0,wheelDirectionCS0,wheelAxleCS,_suspensionRestLength,wheelRadius,tuning,isFrontWheel); //needs parametrising
+        _m_vehicle->addWheel(connectionPointCS0,wheelDirectionCS0,wheelAxleCS,_suspensionRestLength,wheelRadius,tuning,true); //needs parametrising
             
         connectionPointCS0 = btVector3(-CUBE_HALF_EXTENTS+(0.3*wheelWidth),connectionHeight,-2*CUBE_HALF_EXTENTS+wheelRadius);
         isFrontWheel = false;
-        _m_vehicle->addWheel(connectionPointCS0,wheelDirectionCS0,wheelAxleCS,_suspensionRestLength,wheelRadius,tuning,isFrontWheel);//needs parametrising
+        _m_vehicle->addWheel(connectionPointCS0,wheelDirectionCS0,wheelAxleCS,_suspensionRestLength,wheelRadius,tuning,false);//needs parametrising
             
         connectionPointCS0 = btVector3(CUBE_HALF_EXTENTS-(0.3*wheelWidth),connectionHeight,-2*CUBE_HALF_EXTENTS+wheelRadius);
-        _m_vehicle->addWheel(connectionPointCS0,wheelDirectionCS0,wheelAxleCS,_suspensionRestLength,wheelRadius,tuning,isFrontWheel);//needs parametrising
+        _m_vehicle->addWheel(connectionPointCS0,wheelDirectionCS0,wheelAxleCS,_suspensionRestLength,wheelRadius,tuning,false);//needs parametrising
             
         for (int i=0;i<_m_vehicle->getNumWheels();i++)
                 {
