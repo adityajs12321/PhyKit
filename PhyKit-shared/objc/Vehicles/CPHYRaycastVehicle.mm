@@ -100,6 +100,25 @@
     return self;
 }
 
+-(struct PHYVector3) position {
+    if (_m_vehicle) {
+        btTransform c_transform = _m_vehicle->getChassisWorldTransform();
+        btVector3 c_position = c_transform.getOrigin();
+        return PHYVector3Make(c_position.x(), c_position.y(), c_position.z());
+    } else {
+        return PHYVector3Make(0, 0, 0);
+    }
+}
+
+- (void) setPosition:(struct PHYVector3)position {
+    if (_m_vehicle) {
+        btTransform c_transform = _m_vehicle->getChassisWorldTransform();
+        btVector3 c_position = btVector3(position.x, position.y, position.z);
+        c_transform.setOrigin(c_position);
+        _m_carChassis->setWorldTransform(c_transform);
+    }
+}
+
 -(struct PHYMatrix4) getWheelPositions:(int)wheelIndex {;
     btScalar m[16];
 

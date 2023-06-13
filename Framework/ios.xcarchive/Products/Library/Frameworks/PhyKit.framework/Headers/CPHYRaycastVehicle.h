@@ -29,6 +29,7 @@ struct PHYQuaternion;
 
 @property (nonatomic, assign) struct PHYQuaternion orientation;
 @property (nonatomic, assign) struct PHYVector3 eulerOrientation;
+@property (nonatomic, assign) struct PHYVector3 position;
 
 @end
 
