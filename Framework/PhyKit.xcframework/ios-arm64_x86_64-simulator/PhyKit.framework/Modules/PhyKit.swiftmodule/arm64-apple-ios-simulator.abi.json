@@ -6030,7 +6030,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(chassisShape:world:mass:wheelWidth:wheelRadius:maxEngineForce:maxBreakingForce:wheelFriction:suspensionStiffness:suspensionDamping:suspensionCompression:suspensionRestLength:rollInfluence:)",
+            "printedName": "init(chassisShape:world:mass:wheelWidth:wheelRadius:connectionHeight:maxEngineForce:maxBreakingForce:wheelFriction:suspensionStiffness:suspensionDamping:suspensionCompression:suspensionRestLength:rollInfluence:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6115,11 +6115,17 @@
                 "name": "Float",
                 "printedName": "Swift.Float",
                 "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6PhyKit17PHYRaycastVehicleC12chassisShape5world4mass10wheelWidth0I6Radius14maxEngineForce0l8BreakingN00I8Friction19suspensionStiffness0Q7Damping0Q11Compression0Q10RestLength13rollInfluenceAcA012PHYCollisionF0_p_AA8PHYWorldCS11ftcfc",
-            "mangledName": "$s6PhyKit17PHYRaycastVehicleC12chassisShape5world4mass10wheelWidth0I6Radius14maxEngineForce0l8BreakingN00I8Friction19suspensionStiffness0Q7Damping0Q11Compression0Q10RestLength13rollInfluenceAcA012PHYCollisionF0_p_AA8PHYWorldCS11ftcfc",
+            "usr": "s:6PhyKit17PHYRaycastVehicleC12chassisShape5world4mass10wheelWidth0I6Radius16connectionHeight14maxEngineForce0n8BreakingP00I8Friction19suspensionStiffness0S7Damping0S11Compression0S10RestLength13rollInfluenceAcA012PHYCollisionF0_p_AA8PHYWorldCS12ftcfc",
+            "mangledName": "$s6PhyKit17PHYRaycastVehicleC12chassisShape5world4mass10wheelWidth0I6Radius16connectionHeight14maxEngineForce0n8BreakingP00I8Friction19suspensionStiffness0S7Damping0S11Compression0S10RestLength13rollInfluenceAcA012PHYCollisionF0_p_AA8PHYWorldCS12ftcfc",
             "moduleName": "PhyKit",
             "declAttributes": [
               "AccessControl"
@@ -6129,7 +6135,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(chassisShape:world:mass:wheelWidth:wheelRadius:maxEngineForce:maxBreakingForce:wheelFriction:suspensionStiffness:suspensionDamping:suspensionCompression:suspensionRestLength:rollInfluence:)",
+            "printedName": "init(chassisShape:world:mass:wheelWidth:wheelRadius:connectionHeight:maxEngineForce:maxBreakingForce:wheelFriction:suspensionStiffness:suspensionDamping:suspensionCompression:suspensionRestLength:rollInfluence:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6214,15 +6220,21 @@
                 "name": "Float",
                 "printedName": "Swift.Float",
                 "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@PhyKit@objc(cs)PHYRaycastVehicle(im)initWithChassisShape:world:mass:wheelWidth:wheelRadius:maxEngineForce:maxBreakingForce:wheelFriction:suspensionStiffness:suspensionDamping:suspensionCompression:suspensionRestLength:rollInfluence:",
-            "mangledName": "$s6PhyKit17PHYRaycastVehicleC12chassisShape5world4mass10wheelWidth0I6Radius14maxEngineForce0l8BreakingN00I8Friction19suspensionStiffness0Q7Damping0Q11Compression0Q10RestLength13rollInfluenceACSo013CPHYCollisionF0C_So9CPHYWorldCS11ftcfc",
+            "usr": "c:@M@PhyKit@objc(cs)PHYRaycastVehicle(im)initWithChassisShape:world:mass:wheelWidth:wheelRadius:connectionHeight:maxEngineForce:maxBreakingForce:wheelFriction:suspensionStiffness:suspensionDamping:suspensionCompression:suspensionRestLength:rollInfluence:",
+            "mangledName": "$s6PhyKit17PHYRaycastVehicleC12chassisShape5world4mass10wheelWidth0I6Radius16connectionHeight14maxEngineForce0n8BreakingP00I8Friction19suspensionStiffness0S7Damping0S11Compression0S10RestLength13rollInfluenceACSo013CPHYCollisionF0C_So9CPHYWorldCS12ftcfc",
             "moduleName": "PhyKit",
             "overriding": true,
             "implicit": true,
-            "objc_name": "initWithChassisShape:world:mass:wheelWidth:wheelRadius:maxEngineForce:maxBreakingForce:wheelFriction:suspensionStiffness:suspensionDamping:suspensionCompression:suspensionRestLength:rollInfluence:",
+            "objc_name": "initWithChassisShape:world:mass:wheelWidth:wheelRadius:connectionHeight:maxEngineForce:maxBreakingForce:wheelFriction:suspensionStiffness:suspensionDamping:suspensionCompression:suspensionRestLength:rollInfluence:",
             "declAttributes": [
               "Dynamic",
               "ObjC",

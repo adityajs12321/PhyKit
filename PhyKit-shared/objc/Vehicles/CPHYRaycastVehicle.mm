@@ -31,7 +31,7 @@
 
 @implementation CPHYRaycastVehicle {}
 
--(instancetype)initWithChassisShape: (CPHYCollisionShape *)chassisShape world: (CPHYWorld *)world mass:(float)mass wheelWidth:(float)wheelWidth wheelRadius:(float)wheelRadius  maxEngineForce:(float)maxEngineForce maxBreakingForce:(float)maxBreakingForce wheelFriction:(float)wheelFriction suspensionStiffness:(float)suspensionStiffness suspensionDamping:(float)suspensionDamping suspensionCompression:(float)suspensionCompression suspensionRestLength:(float)suspensionRestLength rollInfluence:(float)rollInfluence; {
+-(instancetype)initWithChassisShape: (CPHYCollisionShape *)chassisShape world: (CPHYWorld *)world mass:(float)mass wheelWidth:(float)wheelWidth wheelRadius:(float)wheelRadius connectionHeight:(float)connectionHeight maxEngineForce:(float)maxEngineForce maxBreakingForce:(float)maxBreakingForce wheelFriction:(float)wheelFriction suspensionStiffness:(float)suspensionStiffness suspensionDamping:(float)suspensionDamping suspensionCompression:(float)suspensionCompression suspensionRestLength:(float)suspensionRestLength rollInfluence:(float)rollInfluence; {
     self = [super init];
     if (self) {
         btCompoundShape* compound = new btCompoundShape();
@@ -70,8 +70,7 @@
         _m_carChassis->setActivationState(DISABLE_DEACTIVATION);
             
         world.world->addVehicle(_m_vehicle);
-            
-        float connectionHeight = 1.2f;// needs parametrising
+        
         _m_vehicle->setCoordinateSystem(rightIndex, upIndex, forwardIndex);
             
         btVector3 connectionPointCS0(CUBE_HALF_EXTENTS-(0.3*wheelWidth),connectionHeight,2*CUBE_HALF_EXTENTS-wheelRadius);

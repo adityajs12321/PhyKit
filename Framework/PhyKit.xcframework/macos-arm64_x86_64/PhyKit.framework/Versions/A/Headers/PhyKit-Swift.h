@@ -266,7 +266,7 @@ SWIFT_CLASS("_TtC6PhyKit13PHYConstraint")
 
 SWIFT_CLASS("_TtC6PhyKit17PHYRaycastVehicle")
 @interface PHYRaycastVehicle : CPHYRaycastVehicle
-- (nonnull instancetype)initWithChassisShape:(CPHYCollisionShape * _Nonnull)chassisShape world:(CPHYWorld * _Nonnull)world mass:(float)mass wheelWidth:(float)wheelWidth wheelRadius:(float)wheelRadius maxEngineForce:(float)maxEngineForce maxBreakingForce:(float)maxBreakingForce wheelFriction:(float)wheelFriction suspensionStiffness:(float)suspensionStiffness suspensionDamping:(float)suspensionDamping suspensionCompression:(float)suspensionCompression suspensionRestLength:(float)suspensionRestLength rollInfluence:(float)rollInfluence SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithChassisShape:(CPHYCollisionShape * _Nonnull)chassisShape world:(CPHYWorld * _Nonnull)world mass:(float)mass wheelWidth:(float)wheelWidth wheelRadius:(float)wheelRadius connectionHeight:(float)connectionHeight maxEngineForce:(float)maxEngineForce maxBreakingForce:(float)maxBreakingForce wheelFriction:(float)wheelFriction suspensionStiffness:(float)suspensionStiffness suspensionDamping:(float)suspensionDamping suspensionCompression:(float)suspensionCompression suspensionRestLength:(float)suspensionRestLength rollInfluence:(float)rollInfluence SWIFT_UNAVAILABLE;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -574,7 +574,7 @@ SWIFT_CLASS("_TtC6PhyKit13PHYConstraint")
 
 SWIFT_CLASS("_TtC6PhyKit17PHYRaycastVehicle")
 @interface PHYRaycastVehicle : CPHYRaycastVehicle
-- (nonnull instancetype)initWithChassisShape:(CPHYCollisionShape * _Nonnull)chassisShape world:(CPHYWorld * _Nonnull)world mass:(float)mass wheelWidth:(float)wheelWidth wheelRadius:(float)wheelRadius maxEngineForce:(float)maxEngineForce maxBreakingForce:(float)maxBreakingForce wheelFriction:(float)wheelFriction suspensionStiffness:(float)suspensionStiffness suspensionDamping:(float)suspensionDamping suspensionCompression:(float)suspensionCompression suspensionRestLength:(float)suspensionRestLength rollInfluence:(float)rollInfluence SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithChassisShape:(CPHYCollisionShape * _Nonnull)chassisShape world:(CPHYWorld * _Nonnull)world mass:(float)mass wheelWidth:(float)wheelWidth wheelRadius:(float)wheelRadius connectionHeight:(float)connectionHeight maxEngineForce:(float)maxEngineForce maxBreakingForce:(float)maxBreakingForce wheelFriction:(float)wheelFriction suspensionStiffness:(float)suspensionStiffness suspensionDamping:(float)suspensionDamping suspensionCompression:(float)suspensionCompression suspensionRestLength:(float)suspensionRestLength rollInfluence:(float)rollInfluence SWIFT_UNAVAILABLE;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
