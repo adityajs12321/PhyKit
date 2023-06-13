@@ -63,7 +63,7 @@
 //    The last step is to set the world’s gravity. For now, it will be same gravity as we have here on Earth. The y-vector points up, so btVector3(0, -9.8, 0), which is a 3-component vector (x,y,z), will point down with a magnitude of 9.8.
     _world->setGravity(btVector3(0, -9.8, 0));
     
-    //_world->getSolverInfo().m_splitImpulse = false;
+    _world->getSolverInfo().m_splitImpulse = false;
 }
 
 // MARK: Updates

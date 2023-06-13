@@ -16,7 +16,7 @@
 #import "CPHYStructs.h"
 #import "CPHYStructs+Internal.h"
 
-#define CUBE_HALF_EXTENTS 1
+#define CUBE_HALF_EXTENTS 0.5
 
 @interface CPHYRaycastVehicle() {
     int rightIndex;
@@ -57,7 +57,7 @@
         wheelDirectionCS0 = btVector3(0 ,-1, 0);
         isFrontWheel = true;
         
-        _suspensionRestLength = btScalar(suspensionRestLength);
+        _suspensionRestLength = btScalar(0.7);
         
         _m_wheelShape = new btCylinderShapeX(btVector3(wheelWidth,wheelRadius,wheelRadius));
         
