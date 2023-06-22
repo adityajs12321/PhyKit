@@ -7407,6 +7407,55 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2374,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2535,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2572,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2612,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2656,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2771,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-macos\/swift\/PHYDisplayLink.swift",
+      "kind": "StringLiteral",
+      "offset": 469,
+      "length": 32,
+      "value": "\"Unable to create CVDisplayLink\""
+    },
+    {
       "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeStaticPlane.swift",
       "kind": "IntegerLiteral",
       "offset": 463,
@@ -7435,6 +7484,174 @@
       "value": "0.04"
     },
     {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 493,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 495,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 497,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 996,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1011,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1026,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1156,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1171,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1186,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1278,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1293,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1308,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1388,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1403,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1418,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2843,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2904,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2961,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3005,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3039,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3083,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3118,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3158,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3189,
+      "length": 1,
+      "value": "2"
+    },
+    {
       "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
       "kind": "BooleanLiteral",
       "offset": 360,
@@ -7443,10 +7660,66 @@
     },
     {
       "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
+      "kind": "StringLiteral",
+      "offset": 932,
+      "length": 18,
+      "value": "\"startOrientation\""
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
+      "kind": "StringLiteral",
+      "offset": 977,
+      "length": 16,
+      "value": "\"endOrientation\""
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
+      "kind": "StringLiteral",
+      "offset": 1226,
+      "length": 18,
+      "value": "\"startOrientation\""
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
+      "kind": "StringLiteral",
+      "offset": 1278,
+      "length": 16,
+      "value": "\"endOrientation\""
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
       "kind": "BooleanLiteral",
       "offset": 2099,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
+      "kind": "StringLiteral",
+      "offset": 2590,
+      "length": 18,
+      "value": "\"startOrientation\""
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
+      "kind": "StringLiteral",
+      "offset": 2635,
+      "length": 16,
+      "value": "\"endOrientation\""
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
+      "kind": "StringLiteral",
+      "offset": 2884,
+      "length": 18,
+      "value": "\"startOrientation\""
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
+      "kind": "StringLiteral",
+      "offset": 2936,
+      "length": 16,
+      "value": "\"endOrientation\""
     },
     {
       "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Scene\/PHYScene.swift",
@@ -7482,6 +7755,139 @@
       "offset": 607,
       "length": 4,
       "value": "0.04"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "Array",
+      "offset": 1035,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "Array",
+      "offset": 1576,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "Array",
+      "offset": 1794,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1847,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1883,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2141,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2684,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "Array",
+      "offset": 2821,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2866,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3156,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3844,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3872,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4044,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4354,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4664,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "Array",
+      "offset": 5702,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6580,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6598,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6616,
+      "length": 1,
+      "value": "2"
     },
     {
       "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeCapsule.swift",
@@ -7575,11 +7981,123 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3395,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "kind": "Array",
+      "offset": 3675,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "kind": "Array",
+      "offset": 3697,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "kind": "Array",
+      "offset": 3722,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "kind": "Dictionary",
+      "offset": 3750,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "kind": "Dictionary",
+      "offset": 3787,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "kind": "Array",
+      "offset": 4226,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "kind": "Dictionary",
+      "offset": 5138,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "kind": "Dictionary",
+      "offset": 5858,
+      "length": 3,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeSphere.swift",
       "kind": "FloatLiteral",
       "offset": 431,
       "length": 4,
       "value": "0.04"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Move.swift",
+      "kind": "FloatLiteral",
+      "offset": 1999,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/RigidBodies\/PHYRigidBodyType.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1083,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/RigidBodies\/PHYRigidBodyType.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1140,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/RigidBodies\/PHYRigidBodyType.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1181,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/RigidBodies\/PHYRigidBodyType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1332,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/RigidBodies\/PHYRigidBodyType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1378,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/RigidBodies\/PHYRigidBodyType.swift",
+      "kind": "FloatLiteral",
+      "offset": 1765,
+      "length": 3,
+      "value": "1.0"
     },
     {
       "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Triggers\/PHYTrigger.swift",

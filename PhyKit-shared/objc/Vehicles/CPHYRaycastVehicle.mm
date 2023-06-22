@@ -73,17 +73,17 @@
         
         _m_vehicle->setCoordinateSystem(rightIndex, upIndex, forwardIndex);
             
-        btVector3 connectionPointCS0(CUBE_HALF_EXTENTS-(0.3*wheelWidth),connectionHeight,2*CUBE_HALF_EXTENTS-wheelRadius);
+        btVector3 connectionPointCS0(CUBE_HALF_EXTENTS-(0.3*wheelWidth),connectionHeight,-2*CUBE_HALF_EXTENTS+wheelRadius);
         _m_vehicle->addWheel(connectionPointCS0,wheelDirectionCS0,wheelAxleCS,_suspensionRestLength,wheelRadius,tuning,true); // needs parametrising
             
-        connectionPointCS0 = btVector3(-CUBE_HALF_EXTENTS+(0.3*wheelWidth),connectionHeight,2*CUBE_HALF_EXTENTS-wheelRadius);
+        connectionPointCS0 = btVector3(-CUBE_HALF_EXTENTS+(0.3*wheelWidth),connectionHeight,-2*CUBE_HALF_EXTENTS+wheelRadius);
         _m_vehicle->addWheel(connectionPointCS0,wheelDirectionCS0,wheelAxleCS,_suspensionRestLength,wheelRadius,tuning,true); //needs parametrising
             
-        connectionPointCS0 = btVector3(-CUBE_HALF_EXTENTS+(0.3*wheelWidth),connectionHeight,-2*CUBE_HALF_EXTENTS+wheelRadius);
+        connectionPointCS0 = btVector3(-CUBE_HALF_EXTENTS+(0.3*wheelWidth),connectionHeight,2*CUBE_HALF_EXTENTS-wheelRadius);
         isFrontWheel = false;
         _m_vehicle->addWheel(connectionPointCS0,wheelDirectionCS0,wheelAxleCS,_suspensionRestLength,wheelRadius,tuning,false);//needs parametrising
             
-        connectionPointCS0 = btVector3(CUBE_HALF_EXTENTS-(0.3*wheelWidth),connectionHeight,-2*CUBE_HALF_EXTENTS+wheelRadius);
+        connectionPointCS0 = btVector3(CUBE_HALF_EXTENTS-(0.3*wheelWidth),connectionHeight,2*CUBE_HALF_EXTENTS-wheelRadius);
         _m_vehicle->addWheel(connectionPointCS0,wheelDirectionCS0,wheelAxleCS,_suspensionRestLength,wheelRadius,tuning,false);//needs parametrising
             
         for (int i=0;i<_m_vehicle->getNumWheels();i++)
@@ -144,13 +144,6 @@
     c_orientation.setEulerZYX(eulerOrientation.z, eulerOrientation.y, eulerOrientation.x);
     c_transform.setRotation(c_orientation);
     _m_carChassis->setWorldTransform(c_transform);
-}
-
--(void) updateVehicleWheelTransforms {
-    int i;
-    for (i = 0; i<_m_vehicle->getNumWheels(); i++) {
-        _m_vehicle->updateWheelTransform(i, true);
-    }
 }
 
 -(struct PHYQuaternion) orientation {

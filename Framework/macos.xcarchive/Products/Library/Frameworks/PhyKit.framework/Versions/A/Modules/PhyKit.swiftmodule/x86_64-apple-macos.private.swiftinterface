@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.114.6 clang-1500.0.27.1)
 // swift-module-flags: -target x86_64-apple-macos11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PhyKit
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreVideo
@@ -9,6 +9,7 @@ import SceneKit
 import Swift
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 public class PHYAction {
   public typealias SetupBlock = ((_ rigidBody: PhyKit.PHYRigidBody) -> (Any?))
   public typealias ActionBlock = ((_ percent: Foundation.TimeInterval, _ rigidBody: PhyKit.PHYRigidBody, _ setupInfo: Any?) -> ())
@@ -138,7 +139,7 @@ public protocol PHYCollisionShape {
   var internalShape: PhyKit.CPHYCollisionShape { get }
 }
 public class PHYScene {
-  weak public var delegate: PhyKit.PHYSceneUpdateDelegate?
+  weak public var delegate: (any PhyKit.PHYSceneUpdateDelegate)?
   public init(isMotionStateEnabled: Swift.Bool)
   public func attach(_ rigidBody: PhyKit.PHYRigidBody, to node: SceneKit.SCNNode)
   public func detach(_ node: SceneKit.SCNNode)
@@ -194,13 +195,13 @@ public class PHYCollisionShapeCylinder : PhyKit.PHYCollisionShape {
 @objc public class PHYRigidBody : PhyKit.CPHYRigidBody {
   final public let uuid: Swift.String
   final public let type: PhyKit.PHYRigidBodyType
-  public init(type: PhyKit.PHYRigidBodyType, shape: PhyKit.PHYCollisionShape)
+  public init(type: PhyKit.PHYRigidBodyType, shape: any PhyKit.PHYCollisionShape)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class PHYWorld : PhyKit.CPHYWorld {
-  weak public var simulationDelegate: PhyKit.PHYWorldSimulationDelegate?
-  weak public var collisionDelegate: PhyKit.PHYWorldCollisionDelegate?
-  weak public var triggerDelegate: PhyKit.PHYWorldTriggerDelegate?
+  weak public var simulationDelegate: (any PhyKit.PHYWorldSimulationDelegate)?
+  weak public var collisionDelegate: (any PhyKit.PHYWorldCollisionDelegate)?
+  weak public var triggerDelegate: (any PhyKit.PHYWorldTriggerDelegate)?
   public var simulationTime: Swift.Double {
     get
     set
@@ -252,7 +253,7 @@ extension PhyKit.PHYRigidBodyType {
 }
 @objc public class PHYTrigger : PhyKit.CPHYTrigger {
   final public let uuid: Swift.String
-  public init(shape: PhyKit.PHYCollisionShape)
+  public init(shape: any PhyKit.PHYCollisionShape)
   public func getCollidingRigidBodies() -> [PhyKit.PHYRigidBody]
   @objc deinit
 }
@@ -265,11 +266,11 @@ public class PHYRaycastResult {
 }
 public class PHYCollisionShapeCompound : PhyKit.PHYCollisionShape {
   final public let internalShape: PhyKit.CPHYCollisionShape
-  public init(collisionShapes: [PhyKit.PHYCollisionShape], transform: PhyKit.PHYMatrix4 = PHYMatrix4MakeIdentity(), margin: Swift.Float = 0.04)
+  public init(collisionShapes: [any PhyKit.PHYCollisionShape], transform: PhyKit.PHYMatrix4 = PHYMatrix4MakeIdentity(), margin: Swift.Float = 0.04)
   @objc deinit
 }
 @objc public class PHYRaycastVehicle : PhyKit.CPHYRaycastVehicle {
-  public init(chassisShape: PhyKit.PHYCollisionShape, world: PhyKit.PHYWorld, mass: Swift.Float, wheelWidth: Swift.Float, wheelRadius: Swift.Float, connectionHeight: Swift.Float, maxEngineForce: Swift.Float, maxBreakingForce: Swift.Float, wheelFriction: Swift.Float, suspensionStiffness: Swift.Float, suspensionDamping: Swift.Float, suspensionCompression: Swift.Float, suspensionRestLength: Swift.Float, rollInfluence: Swift.Float)
+  public init(chassisShape: any PhyKit.PHYCollisionShape, world: PhyKit.PHYWorld, mass: Swift.Float, wheelWidth: Swift.Float, wheelRadius: Swift.Float, connectionHeight: Swift.Float, maxEngineForce: Swift.Float, maxBreakingForce: Swift.Float, wheelFriction: Swift.Float, suspensionStiffness: Swift.Float, suspensionDamping: Swift.Float, suspensionCompression: Swift.Float, suspensionRestLength: Swift.Float, rollInfluence: Swift.Float)
   @objc deinit
 }
 extension PhyKit.PHYRotationMetric : Swift.Equatable {}

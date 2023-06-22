@@ -25,7 +25,6 @@ struct PHYQuaternion;
 -(struct PHYMatrix4) getChassisPosition;
 -(void) applyVehicleEngineForce:(float)gEngineForce breakingForce:(float)gBreakingForce;
 -(void) vehicleSteeringValue:(float)gVehicleSteering;
--(void) updateVehicleWheelTransforms;
 
 @property (nonatomic, assign) struct PHYQuaternion orientation;
 @property (nonatomic, assign) struct PHYVector3 eulerOrientation;
