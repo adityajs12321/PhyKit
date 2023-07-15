@@ -62,7 +62,7 @@
 		</data>
 		<key>Headers/PhyKit-Swift.h</key>
 		<data>
-		IInzMRTfaEb9+Uc1Gu0wJS+uoYQ=
+		NRWKmwK2Xlo2KEetwZZP1cvmXC0=
 		</data>
 		<key>Headers/PhyKit.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+/iz1sI/5/eXo3SNFNz3FuVM7us=
+		w2g4phs2+pmqGGvXWFl30DNij/M=
 		</data>
 		<key>Modules/PhyKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -82,19 +82,19 @@
 		</data>
 		<key>Modules/PhyKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		3PliCAIqgfR6k6Mkr05yVKDRujs=
+		rYZp/p6HyO4cNS6wyu1ihrQxF/8=
 		</data>
 		<key>Modules/PhyKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Bn9YlHEIOoWGnGa9tW4GvQZYWfI=
+		smweETi4aLECGCAr0h1Ja2XM/bA=
 		</data>
 		<key>Modules/PhyKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		3PliCAIqgfR6k6Mkr05yVKDRujs=
+		rYZp/p6HyO4cNS6wyu1ihrQxF/8=
 		</data>
 		<key>Modules/PhyKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		H3CMt/3L0BnWtFeq9AtQ/+G6fLU=
+		AFc4wBcyyFyKBfUxcJLbXtY5e8k=
 		</data>
 		<key>Modules/PhyKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -102,19 +102,19 @@
 		</data>
 		<key>Modules/PhyKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		8MbvfB0/rP6sZLNc2SXHuSO6Zac=
+		NHRmNYsHCUTFwmxVFP617OhZ01U=
 		</data>
 		<key>Modules/PhyKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		0vAxHBFscU2k3/0X3TmgTBNL7z0=
+		HPUlIAL2X7qg8CflcolYiaA0txw=
 		</data>
 		<key>Modules/PhyKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		8MbvfB0/rP6sZLNc2SXHuSO6Zac=
+		NHRmNYsHCUTFwmxVFP617OhZ01U=
 		</data>
 		<key>Modules/PhyKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AwDqFOEUCFqkZEzHd+d1cUoOI+0=
+		RzrzFkMtW+227JayNZyK98mL4sA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -225,7 +225,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OBoecZWlsZ0xBnMjztDNUdErE08D4VoBqYZPzQYdIiw=
+			c7Ty44YzJ+DaSNZEi5Joiyoqs6c1zgOco4o6hA5t8rc=
 			</data>
 		</dict>
 		<key>Headers/PhyKit.h</key>
@@ -253,28 +253,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/anACX32unekk900Ri/ipVohX0P9FDqrnBkLTSGwXVY=
+			HvVVP6bXBmDd3OK/Y1geiUtHjdr6nyzBJ3NWFazzYro=
 			</data>
 		</dict>
 		<key>Modules/PhyKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iOGQLf3gZyZRFXnoRXycbC15/0jkgqLamhhwjjI57x8=
+			4ZpPOUbkz7MRFq0TRQ5D/oBpCaYcMFsY3gu4Jwz+yYA=
 			</data>
 		</dict>
 		<key>Modules/PhyKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/anACX32unekk900Ri/ipVohX0P9FDqrnBkLTSGwXVY=
+			HvVVP6bXBmDd3OK/Y1geiUtHjdr6nyzBJ3NWFazzYro=
 			</data>
 		</dict>
 		<key>Modules/PhyKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xVd7fSgCH2j3FIb/nbM9mmwwajLcfPlQvEfxYnUII+A=
+			Yz/FUpSXcDJDQuIn+BF0g3JypTK3nfbFkhKjNLp2HtE=
 			</data>
 		</dict>
 		<key>Modules/PhyKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -288,28 +288,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HAWnFNJuZt+ES235mN5XUq+TmjXyvpQVHM/5cvUZAQc=
+			K0mHIiGGi0BVVPOOoZHlnjMHdpHB9/vMUAwjeXGoPTA=
 			</data>
 		</dict>
 		<key>Modules/PhyKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WfXemHjUf8K8s5AkvHUMX2YwHdAXa5WJjPC3bqoSS3k=
+			xHAmlTQT5XQr2ng33geutzmrYe7a4Qhp3Rr5L6nB7rI=
 			</data>
 		</dict>
 		<key>Modules/PhyKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HAWnFNJuZt+ES235mN5XUq+TmjXyvpQVHM/5cvUZAQc=
+			K0mHIiGGi0BVVPOOoZHlnjMHdpHB9/vMUAwjeXGoPTA=
 			</data>
 		</dict>
 		<key>Modules/PhyKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4PRc6buVg0tk+MjhRhwtnrt3SxtCrYwwheFTtgBVATc=
+			mF2YGqAsOwdFXZQMvnKxAbbdv41N2KnxYGXl0dYG6Og=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
