@@ -1,7 +1,7 @@
 framework module PhyKit {
   umbrella header "PhyKit.h"
-  export *
 
+  export *
   module * { export * }
 }
 

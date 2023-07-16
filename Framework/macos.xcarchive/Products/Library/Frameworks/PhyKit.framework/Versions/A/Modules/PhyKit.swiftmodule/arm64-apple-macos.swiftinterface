@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.114.10 clang-1500.0.29.1)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-macos11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PhyKit
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreVideo
@@ -9,7 +9,6 @@ import SceneKit
 import Swift
 import _Concurrency
 import _StringProcessing
-import _SwiftConcurrencyShims
 public class PHYAction {
   public typealias SetupBlock = ((_ rigidBody: PhyKit.PHYRigidBody) -> (Any?))
   public typealias ActionBlock = ((_ percent: Foundation.TimeInterval, _ rigidBody: PhyKit.PHYRigidBody, _ setupInfo: Any?) -> ())
@@ -168,6 +167,11 @@ public class PHYGeometry {
   final public let internalGeometry: PhyKit.CPHYGeometry
   public init(scnGeometry: SceneKit.SCNGeometry)
   @objc deinit
+}
+extension Swift.Collection {
+  public subscript(safe index: Self.Index) -> Self.Iterator.Element? {
+    get
+  }
 }
 public protocol PHYWorldCollisionDelegate : AnyObject {
   func physicsWorld(_ physicsWorld: PhyKit.PHYWorld, collisionDidBeginAtTime time: Foundation.TimeInterval, with collisionPair: PhyKit.PHYCollisionPair)

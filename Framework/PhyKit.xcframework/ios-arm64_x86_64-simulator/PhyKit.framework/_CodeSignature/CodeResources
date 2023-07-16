@@ -62,7 +62,7 @@
 		</data>
 		<key>Headers/PhyKit-Swift.h</key>
 		<data>
-		NRWKmwK2Xlo2KEetwZZP1cvmXC0=
+		tMZ2ii6C6EjB7V6yIMS9oPx8fs8=
 		</data>
 		<key>Headers/PhyKit.h</key>
 		<data>
@@ -74,51 +74,51 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		w2g4phs2+pmqGGvXWFl30DNij/M=
+		dR2JxFR0+y/vsZmNEJC4xx6kpD8=
 		</data>
 		<key>Modules/PhyKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		1cJvTEQYQQNqaSkrGYY1tbgYi1A=
+		pDkLKe9FpOIMYvIKNT792jMqBuQ=
 		</data>
 		<key>Modules/PhyKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		rYZp/p6HyO4cNS6wyu1ihrQxF/8=
+		+Pom5J4aCPcKOmmjHGtQzmeqH+Q=
 		</data>
 		<key>Modules/PhyKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		smweETi4aLECGCAr0h1Ja2XM/bA=
+		MMATp03nu/JpcAbyyEYCkjcYIJw=
 		</data>
 		<key>Modules/PhyKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		rYZp/p6HyO4cNS6wyu1ihrQxF/8=
+		+Pom5J4aCPcKOmmjHGtQzmeqH+Q=
 		</data>
 		<key>Modules/PhyKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AFc4wBcyyFyKBfUxcJLbXtY5e8k=
+		52uC9ADkmW/35X7/b5TFGCNmYic=
 		</data>
 		<key>Modules/PhyKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		1cJvTEQYQQNqaSkrGYY1tbgYi1A=
+		pDkLKe9FpOIMYvIKNT792jMqBuQ=
 		</data>
 		<key>Modules/PhyKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		NHRmNYsHCUTFwmxVFP617OhZ01U=
+		UQysikzt0JtRKvpAyAsyXTVniEM=
 		</data>
 		<key>Modules/PhyKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		HPUlIAL2X7qg8CflcolYiaA0txw=
+		k6QXKm6pIEdCMVOj64n9O+DGga8=
 		</data>
 		<key>Modules/PhyKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		NHRmNYsHCUTFwmxVFP617OhZ01U=
+		UQysikzt0JtRKvpAyAsyXTVniEM=
 		</data>
 		<key>Modules/PhyKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RzrzFkMtW+227JayNZyK98mL4sA=
+		24S1TXyf7/FjqsuXa122f5mma7s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		g2SObUxct4QF/hiJ4fDPwJNYzu8=
+		pEknLaZHp+L1pZrw1oWMg481eYE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -225,7 +225,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c7Ty44YzJ+DaSNZEi5Joiyoqs6c1zgOco4o6hA5t8rc=
+			s19pX6osHq8smpveA1lDTQWVc76smyaXx/W1W5d3aCw=
 			</data>
 		</dict>
 		<key>Headers/PhyKit.h</key>
@@ -246,77 +246,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			owGxR0XqwMN5BB+UmQnIWITO8C0gK7v/kkhWRJqWA8I=
+			PXuoiGOhUZoiqQddhbOKdO2qUjgReR+RVkpr567GkPs=
 			</data>
 		</dict>
 		<key>Modules/PhyKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HvVVP6bXBmDd3OK/Y1geiUtHjdr6nyzBJ3NWFazzYro=
+			ByCrsf1rYmPFQXoliU+dlHDV4dAHvInT7Os84T8mfHY=
 			</data>
 		</dict>
 		<key>Modules/PhyKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4ZpPOUbkz7MRFq0TRQ5D/oBpCaYcMFsY3gu4Jwz+yYA=
+			LGLMwBy2zmcsWvFwKiZfY9y6SU1J9PYH+mPtmZ7tDEA=
 			</data>
 		</dict>
 		<key>Modules/PhyKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HvVVP6bXBmDd3OK/Y1geiUtHjdr6nyzBJ3NWFazzYro=
+			ByCrsf1rYmPFQXoliU+dlHDV4dAHvInT7Os84T8mfHY=
 			</data>
 		</dict>
 		<key>Modules/PhyKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yz/FUpSXcDJDQuIn+BF0g3JypTK3nfbFkhKjNLp2HtE=
+			0+kBq0MloaRqs50pxrxlA2ORzEcNWMtwa2U2H2jsvA0=
 			</data>
 		</dict>
 		<key>Modules/PhyKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			owGxR0XqwMN5BB+UmQnIWITO8C0gK7v/kkhWRJqWA8I=
+			PXuoiGOhUZoiqQddhbOKdO2qUjgReR+RVkpr567GkPs=
 			</data>
 		</dict>
 		<key>Modules/PhyKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			K0mHIiGGi0BVVPOOoZHlnjMHdpHB9/vMUAwjeXGoPTA=
+			2vkfjVzKY52FuWeDQi5l1UAOp/aWp4gUr/YuHy0+kfg=
 			</data>
 		</dict>
 		<key>Modules/PhyKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xHAmlTQT5XQr2ng33geutzmrYe7a4Qhp3Rr5L6nB7rI=
+			67wRDsGk2mP874WW0Qnr7AU6EvTuMC8E5IBO8TamzuY=
 			</data>
 		</dict>
 		<key>Modules/PhyKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			K0mHIiGGi0BVVPOOoZHlnjMHdpHB9/vMUAwjeXGoPTA=
+			2vkfjVzKY52FuWeDQi5l1UAOp/aWp4gUr/YuHy0+kfg=
 			</data>
 		</dict>
 		<key>Modules/PhyKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mF2YGqAsOwdFXZQMvnKxAbbdv41N2KnxYGXl0dYG6Og=
+			jhE9FRa0fyiLMxgxko6UmwkVjtBsputjQF1sgL+EU2E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uRq4amW/w/Nh3DpW0BgCtt/1blam6QHvZtXNEEBifxE=
+			9nHTiwFc7GMkDW6U/FCpB2/W0vKdUzhr8g9NXZcZjX4=
 			</data>
 		</dict>
 	</dict>
