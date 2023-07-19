@@ -168,11 +168,6 @@ public class PHYGeometry {
   public init(scnGeometry: SceneKit.SCNGeometry)
   @objc deinit
 }
-extension Swift.Collection {
-  public subscript(safe index: Self.Index) -> Self.Iterator.Element? {
-    get
-  }
-}
 public protocol PHYWorldCollisionDelegate : AnyObject {
   func physicsWorld(_ physicsWorld: PhyKit.PHYWorld, collisionDidBeginAtTime time: Foundation.TimeInterval, with collisionPair: PhyKit.PHYCollisionPair)
   func physicsWorld(_ physicsWorld: PhyKit.PHYWorld, collisionDidContinueAtTime time: Foundation.TimeInterval, with collisionPair: PhyKit.PHYCollisionPair)
