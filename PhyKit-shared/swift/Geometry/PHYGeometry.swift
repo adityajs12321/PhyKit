@@ -8,6 +8,8 @@
 
 import Foundation
 import SceneKit
+import ModelIO
+import MetalKit
 
 /// Geometry instances represent a relationship of vertices->polygons->meshs that build up a 3D model
 public class PHYGeometry {
@@ -155,7 +157,6 @@ public class PHYGeometry {
         return vertices
         
     }
-    
 }
 
 extension Collection where Indices.Iterator.Element == Index {

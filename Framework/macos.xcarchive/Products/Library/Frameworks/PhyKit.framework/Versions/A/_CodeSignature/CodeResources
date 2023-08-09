@@ -6,11 +6,18 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		REqW/GN2Mqs2rUdlAmgDv2EZ89Q=
+		O2zX9Y8zPHf1scDbEgU6h5Br10o=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/CPHYCharacterController.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PKJxtBLQ+3u/qaq1F19c9qI6wNgNGBrXQKWtajQ0nvY=
+			</data>
+		</dict>
 		<key>Headers/CPHYCollisionShape.h</key>
 		<dict>
 			<key>hash2</key>
@@ -113,14 +120,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			s19pX6osHq8smpveA1lDTQWVc76smyaXx/W1W5d3aCw=
+			5we9HOVVG9kUP/2xXtj6DBMd27pQ/k2dul1fFCgIT2g=
 			</data>
 		</dict>
 		<key>Headers/PhyKit.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ONnOP/U62B7cXQY/tSYYsvzdnG1A4OQE3O5Dw1TXwYM=
+			H0f4DCtHDTbI0CBEjlxi7QsgDrJfRYMfjeAtHfVgFzE=
 			</data>
 		</dict>
 		<key>Headers/PhyKit_osUmbrella.h</key>
@@ -134,14 +141,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sOQPqKQESKfZ4nVuLoixCNP79a/XBmhnjaqERbl9F08=
+			Mz6KeX04BiznUeGNCdxCtMrF7PYXZW/yCEPbKsdOoyM=
 			</data>
 		</dict>
 		<key>Modules/PhyKit.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1TR0sMsUnXY9uscHHcP2HV/dJSFm28wm+5TaI1TAxeQ=
+			WncP8XTNfJLlQljp3K8doyt7CJ7VkZJqJsfzZIZnS6s=
 			</data>
 		</dict>
 		<key>Modules/PhyKit.swiftmodule/arm64-apple-macos.swiftdoc</key>
@@ -155,28 +162,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1TR0sMsUnXY9uscHHcP2HV/dJSFm28wm+5TaI1TAxeQ=
+			WncP8XTNfJLlQljp3K8doyt7CJ7VkZJqJsfzZIZnS6s=
 			</data>
 		</dict>
 		<key>Modules/PhyKit.swiftmodule/arm64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1YZDR9I6pXWQumEFK+8eLhiHHaCc1BJpxBL/86AQKao=
+			LnIZT8Ld9Ly7YeF0zMGJqPgbxhNMjH/hUS5bo3SsJ6Y=
 			</data>
 		</dict>
 		<key>Modules/PhyKit.swiftmodule/x86_64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sOQPqKQESKfZ4nVuLoixCNP79a/XBmhnjaqERbl9F08=
+			Mz6KeX04BiznUeGNCdxCtMrF7PYXZW/yCEPbKsdOoyM=
 			</data>
 		</dict>
 		<key>Modules/PhyKit.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y3+GNIbHh2msRcMHNufdraiLTK+Yyqo0WhTUlwHxA6g=
+			Fht6JPQ8p+Bb0KWUHnOQm0YR6muhBlnKeG51KQb2uJw=
 			</data>
 		</dict>
 		<key>Modules/PhyKit.swiftmodule/x86_64-apple-macos.swiftdoc</key>
@@ -190,14 +197,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y3+GNIbHh2msRcMHNufdraiLTK+Yyqo0WhTUlwHxA6g=
+			Fht6JPQ8p+Bb0KWUHnOQm0YR6muhBlnKeG51KQb2uJw=
 			</data>
 		</dict>
 		<key>Modules/PhyKit.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M5TyFsMoasy5NIbUmz1XmVTuiemU6aguXYjIXh2h9s8=
+			z+qmWjZ8pLzCDrQ0wtv6y0vwyNVePvFXiwvZOLoGwl0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -211,7 +218,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xgPmom0zXoB2sGDYNHQezcOv3jgzAE23QVreFd9J5JA=
+			fhz5Rm80/7MbXKXKo4thNyWWSPmcr+vdPzIMiw2yp+U=
 			</data>
 		</dict>
 	</dict>

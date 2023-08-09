@@ -284,6 +284,14 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 @class CPHYRigidBody;
 
+SWIFT_CLASS("_TtC6PhyKit22PHYCharacterController")
+@interface PHYCharacterController : CPHYCharacterController
+- (nonnull instancetype)initWithEntity:(CPHYRigidBody * _Nonnull)rigidBody moveSpeed:(float)moveSpeed SWIFT_UNAVAILABLE;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 SWIFT_CLASS("_TtC6PhyKit13PHYConstraint")
 @interface PHYConstraint : CPHYConstraint
 - (nonnull instancetype)initWithRigidBody1:(CPHYRigidBody * _Nonnull)rigidBody1 rigidBody2:(CPHYRigidBody * _Nonnull)rigidBody2 frameInA:(struct PHYMatrix4)frameInA frameInB:(struct PHYMatrix4)frameInB useLinearReferenceFrameA:(BOOL)useLinearReferenceFrameA angularLowerLimit:(struct PHYVector3)angularLowerLimit angularUpperLimit:(struct PHYVector3)angularUpperLimit SWIFT_UNAVAILABLE;
@@ -621,6 +629,14 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 @class CPHYRigidBody;
+
+SWIFT_CLASS("_TtC6PhyKit22PHYCharacterController")
+@interface PHYCharacterController : CPHYCharacterController
+- (nonnull instancetype)initWithEntity:(CPHYRigidBody * _Nonnull)rigidBody moveSpeed:(float)moveSpeed SWIFT_UNAVAILABLE;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 
 SWIFT_CLASS("_TtC6PhyKit13PHYConstraint")
 @interface PHYConstraint : CPHYConstraint

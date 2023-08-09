@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D0B569B2A838FB600C23BF7 /* CPHYCharacterController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7D0B569A2A838FB600C23BF7 /* CPHYCharacterController.mm */; };
+		7D0B569C2A838FB600C23BF7 /* CPHYCharacterController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7D0B569A2A838FB600C23BF7 /* CPHYCharacterController.mm */; };
+		7D0B569E2A838FCD00C23BF7 /* CPHYCharacterController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D0B569D2A838FCD00C23BF7 /* CPHYCharacterController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D0B569F2A838FCD00C23BF7 /* CPHYCharacterController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D0B569D2A838FCD00C23BF7 /* CPHYCharacterController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D209E252A83AC1F00D868FC /* CPHYCharacterController+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D209E242A83AC1F00D868FC /* CPHYCharacterController+Internal.h */; };
+		7D209E262A83AC1F00D868FC /* CPHYCharacterController+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D209E242A83AC1F00D868FC /* CPHYCharacterController+Internal.h */; };
+		7D209E282A83B3F600D868FC /* PHYCharacterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D209E272A83B3F600D868FC /* PHYCharacterController.swift */; };
+		7D209E292A83B3F600D868FC /* PHYCharacterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D209E272A83B3F600D868FC /* PHYCharacterController.swift */; };
 		7D4285DC29DB1BDD005EA9BB /* CPHYConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4285DB29DB1BDD005EA9BB /* CPHYConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D4285DD29DB1BDD005EA9BB /* CPHYConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4285DB29DB1BDD005EA9BB /* CPHYConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D4285DF29DB1D05005EA9BB /* CPHYConstraint.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7D4285DE29DB1D05005EA9BB /* CPHYConstraint.mm */; };
@@ -458,6 +466,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D0B569A2A838FB600C23BF7 /* CPHYCharacterController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CPHYCharacterController.mm; sourceTree = "<group>"; };
+		7D0B569D2A838FCD00C23BF7 /* CPHYCharacterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPHYCharacterController.h; sourceTree = "<group>"; };
+		7D209E242A83AC1F00D868FC /* CPHYCharacterController+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CPHYCharacterController+Internal.h"; sourceTree = "<group>"; };
+		7D209E272A83B3F600D868FC /* PHYCharacterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHYCharacterController.swift; sourceTree = "<group>"; };
 		7D4285DB29DB1BDD005EA9BB /* CPHYConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPHYConstraint.h; sourceTree = "<group>"; };
 		7D4285DE29DB1D05005EA9BB /* CPHYConstraint.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CPHYConstraint.mm; sourceTree = "<group>"; };
 		7D4285E129DB1E88005EA9BB /* CPHYConstraint+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPHYConstraint+Internal.h"; sourceTree = "<group>"; };
@@ -952,6 +964,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D0B56982A838F6500C23BF7 /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				7D209E272A83B3F600D868FC /* PHYCharacterController.swift */,
+			);
+			path = Character;
+			sourceTree = "<group>";
+		};
+		7D0B56992A838F9F00C23BF7 /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				7D0B569A2A838FB600C23BF7 /* CPHYCharacterController.mm */,
+				7D0B569D2A838FCD00C23BF7 /* CPHYCharacterController.h */,
+				7D209E242A83AC1F00D868FC /* CPHYCharacterController+Internal.h */,
+			);
+			path = Character;
+			sourceTree = "<group>";
+		};
 		7D4285DA29DB1BC5005EA9BB /* Constraints */ = {
 			isa = PBXGroup;
 			children = (
@@ -1529,6 +1559,7 @@
 		F3A571CD25A37725006D6778 /* objc */ = {
 			isa = PBXGroup;
 			children = (
+				7D0B56992A838F9F00C23BF7 /* Character */,
 				7DB0DD782A2F35E3009B9F0E /* Vehicles */,
 				7D4285DA29DB1BC5005EA9BB /* Constraints */,
 				F3A571CE25A37725006D6778 /* DataStructures */,
@@ -1613,6 +1644,7 @@
 		F3A5722425A37773006D6778 /* swift */ = {
 			isa = PBXGroup;
 			children = (
+				7D0B56982A838F6500C23BF7 /* Character */,
 				7DF2ACE92A31815C00695D96 /* Vehicles */,
 				7D55C14029DAB88C0021836F /* Constraints */,
 				F3A5722525A37773006D6778 /* Triggers */,
@@ -1816,6 +1848,7 @@
 				F3A571F025A37725006D6778 /* CPHYStructs+Internal.h in Headers */,
 				F3A5720A25A37725006D6778 /* CPHYMesh.h in Headers */,
 				F3A5720625A37725006D6778 /* CPHYCollisionShape+Internal.h in Headers */,
+				7D209E252A83AC1F00D868FC /* CPHYCharacterController+Internal.h in Headers */,
 				F3A5720025A37725006D6778 /* CPHYDependencies+Internal.h in Headers */,
 				F3A5722025A37725006D6778 /* CPHYRigidBody.h in Headers */,
 				7DB0DD762A2F35D7009B9F0E /* CPHYRaycastVehicle.h in Headers */,
@@ -1827,6 +1860,7 @@
 				F3A571FE25A37725006D6778 /* CPHYWorld.h in Headers */,
 				F3A5728325A37811006D6778 /* PhyKit.h in Headers */,
 				7DB0DD7D2A2F37AA009B9F0E /* CPHYRaycastVehicle+Internal.h in Headers */,
+				7D0B569E2A838FCD00C23BF7 /* CPHYCharacterController.h in Headers */,
 				7D4285DC29DB1BDD005EA9BB /* CPHYConstraint.h in Headers */,
 				F3A5721625A37725006D6778 /* CPHYPolygon.h in Headers */,
 				F3A5721C25A37725006D6778 /* CPHYRigidBody+Internal.h in Headers */,
@@ -1846,6 +1880,7 @@
 				F3A571F125A37725006D6778 /* CPHYStructs+Internal.h in Headers */,
 				F3A5720B25A37725006D6778 /* CPHYMesh.h in Headers */,
 				F3A5720725A37725006D6778 /* CPHYCollisionShape+Internal.h in Headers */,
+				7D209E262A83AC1F00D868FC /* CPHYCharacterController+Internal.h in Headers */,
 				F3A5720125A37725006D6778 /* CPHYDependencies+Internal.h in Headers */,
 				F3A5722125A37725006D6778 /* CPHYRigidBody.h in Headers */,
 				7DB0DD772A2F35D7009B9F0E /* CPHYRaycastVehicle.h in Headers */,
@@ -1857,6 +1892,7 @@
 				F3A571FF25A37725006D6778 /* CPHYWorld.h in Headers */,
 				F3A5728625A37811006D6778 /* PhyKit.h in Headers */,
 				7DB0DD7E2A2F37AA009B9F0E /* CPHYRaycastVehicle+Internal.h in Headers */,
+				7D0B569F2A838FCD00C23BF7 /* CPHYCharacterController.h in Headers */,
 				7D4285DD29DB1BDD005EA9BB /* CPHYConstraint.h in Headers */,
 				F3A5721725A37725006D6778 /* CPHYPolygon.h in Headers */,
 				F3A5721D25A37725006D6778 /* CPHYRigidBody+Internal.h in Headers */,
@@ -1964,6 +2000,7 @@
 				F3A5725E25A37773006D6778 /* PHYAction.swift in Sources */,
 				F3A572E325A37A18006D6778 /* btGeometryUtil.cpp in Sources */,
 				F3A5715525A376D1006D6778 /* btMultiBodySphericalJointMotor.cpp in Sources */,
+				7D209E282A83B3F600D868FC /* PHYCharacterController.swift in Sources */,
 				F3A572DF25A37A18006D6778 /* btTaskScheduler.cpp in Sources */,
 				F3A5704B25A376A8006D6778 /* btSdfCollisionShape.cpp in Sources */,
 				F3A5729C25A379AC006D6778 /* PHYDisplayLink.swift in Sources */,
@@ -1974,6 +2011,7 @@
 				F3A5727A25A37773006D6778 /* PHYSceneUpdateDelegate.swift in Sources */,
 				F3A5705A25A376A8006D6778 /* btSphereSphereCollisionAlgorithm.cpp in Sources */,
 				F3A5715325A376D1006D6778 /* btGeneric6DofSpring2Constraint.cpp in Sources */,
+				7D0B569B2A838FB600C23BF7 /* CPHYCharacterController.mm in Sources */,
 				F3A572E125A37A18006D6778 /* btQuickprof.cpp in Sources */,
 				F3A5715B25A376D1006D6778 /* btMultiBodyMLCPConstraintSolver.cpp in Sources */,
 				F3A5726425A37773006D6778 /* PHYCollisionShapeFromData.swift in Sources */,
@@ -2172,6 +2210,7 @@
 				F3A5725F25A37773006D6778 /* PHYAction.swift in Sources */,
 				F3A572F325A37A18006D6778 /* btGeometryUtil.cpp in Sources */,
 				F3A5718025A376D2006D6778 /* btMultiBodySphericalJointMotor.cpp in Sources */,
+				7D209E292A83B3F600D868FC /* PHYCharacterController.swift in Sources */,
 				F3A572EF25A37A18006D6778 /* btTaskScheduler.cpp in Sources */,
 				F3A570AE25A376A9006D6778 /* btSdfCollisionShape.cpp in Sources */,
 				F3A572A325A379BA006D6778 /* PHYDisplayLink.swift in Sources */,
@@ -2182,6 +2221,7 @@
 				F3A5727B25A37773006D6778 /* PHYSceneUpdateDelegate.swift in Sources */,
 				F3A570BD25A376A9006D6778 /* btSphereSphereCollisionAlgorithm.cpp in Sources */,
 				F3A5717E25A376D2006D6778 /* btGeneric6DofSpring2Constraint.cpp in Sources */,
+				7D0B569C2A838FB600C23BF7 /* CPHYCharacterController.mm in Sources */,
 				F3A572F125A37A18006D6778 /* btQuickprof.cpp in Sources */,
 				F3A5718625A376D2006D6778 /* btMultiBodyMLCPConstraintSolver.cpp in Sources */,
 				F3A5726525A37773006D6778 /* PHYCollisionShapeFromData.swift in Sources */,

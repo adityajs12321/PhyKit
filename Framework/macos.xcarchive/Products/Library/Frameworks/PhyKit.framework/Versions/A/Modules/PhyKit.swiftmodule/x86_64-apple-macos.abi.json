@@ -512,6 +512,184 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "PHYCharacterController",
+        "printedName": "PHYCharacterController",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(entity:moveSpeed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PHYCharacterController",
+                "printedName": "PhyKit.PHYCharacterController",
+                "usr": "c:@M@PhyKit@objc(cs)PHYCharacterController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PHYRigidBody",
+                "printedName": "PhyKit.PHYRigidBody",
+                "usr": "c:@M@PhyKit@objc(cs)PHYRigidBody"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6PhyKit22PHYCharacterControllerC6entity9moveSpeedAcA12PHYRigidBodyC_Sftcfc",
+            "mangledName": "$s6PhyKit22PHYCharacterControllerC6entity9moveSpeedAcA12PHYRigidBodyC_Sftcfc",
+            "moduleName": "PhyKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(entity:moveSpeed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PHYCharacterController",
+                "printedName": "PhyKit.PHYCharacterController",
+                "usr": "c:@M@PhyKit@objc(cs)PHYCharacterController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPHYRigidBody",
+                "printedName": "PhyKit.CPHYRigidBody",
+                "usr": "c:objc(cs)CPHYRigidBody"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PhyKit@objc(cs)PHYCharacterController(im)initWithEntity:moveSpeed:",
+            "mangledName": "$s6PhyKit22PHYCharacterControllerC6entity9moveSpeedACSo13CPHYRigidBodyC_Sftcfc",
+            "moduleName": "PhyKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithEntity:moveSpeed:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PHYCharacterController",
+                "printedName": "PhyKit.PHYCharacterController",
+                "usr": "c:@M@PhyKit@objc(cs)PHYCharacterController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PhyKit@objc(cs)PHYCharacterController(im)init",
+            "mangledName": "$s6PhyKit22PHYCharacterControllerCACycfc",
+            "moduleName": "PhyKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PhyKit@objc(cs)PHYCharacterController",
+        "mangledName": "$s6PhyKit22PHYCharacterControllerC",
+        "moduleName": "PhyKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)CPHYCharacterController",
+        "superclassNames": [
+          "PhyKit.CPHYCharacterController",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "CoreVideo",
         "printedName": "CoreVideo",
@@ -2919,6 +3097,20 @@
         "kind": "Import",
         "name": "SceneKit",
         "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "PhyKit"
+      },
+      {
+        "kind": "Import",
+        "name": "ModelIO",
+        "printedName": "ModelIO",
+        "declKind": "Import",
+        "moduleName": "PhyKit"
+      },
+      {
+        "kind": "Import",
+        "name": "MetalKit",
+        "printedName": "MetalKit",
         "declKind": "Import",
         "moduleName": "PhyKit"
       },
@@ -7542,6 +7734,20 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Character\/PHYCharacterController.swift",
+      "kind": "StringLiteral",
+      "offset": 123,
+      "length": 22,
+      "value": "\"PhyKit.PHYCharacterController\""
+    },
+    {
+      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Character\/PHYCharacterController.swift",
+      "kind": "StringLiteral",
+      "offset": 123,
+      "length": 22,
+      "value": "\"PhyKit.PHYCharacterController\""
+    },
+    {
       "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-macos\/swift\/PHYDisplayLink.swift",
       "kind": "StringLiteral",
       "offset": 469,
@@ -7852,133 +8058,133 @@
     {
       "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
       "kind": "Array",
-      "offset": 1035,
+      "offset": 1066,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
       "kind": "Array",
-      "offset": 1576,
+      "offset": 1607,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
       "kind": "Array",
-      "offset": 1794,
+      "offset": 1825,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
       "kind": "IntegerLiteral",
-      "offset": 1847,
+      "offset": 1878,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
       "kind": "IntegerLiteral",
-      "offset": 1883,
+      "offset": 1914,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
       "kind": "IntegerLiteral",
-      "offset": 2141,
+      "offset": 2172,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
       "kind": "IntegerLiteral",
-      "offset": 2684,
+      "offset": 2715,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
       "kind": "Array",
-      "offset": 2821,
+      "offset": 2852,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
       "kind": "IntegerLiteral",
-      "offset": 2866,
+      "offset": 2897,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
       "kind": "IntegerLiteral",
-      "offset": 3156,
+      "offset": 3187,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
       "kind": "IntegerLiteral",
-      "offset": 3844,
+      "offset": 3875,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
       "kind": "IntegerLiteral",
-      "offset": 3872,
+      "offset": 3903,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
       "kind": "IntegerLiteral",
-      "offset": 4044,
+      "offset": 4075,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
       "kind": "IntegerLiteral",
-      "offset": 4354,
+      "offset": 4385,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
       "kind": "IntegerLiteral",
-      "offset": 4664,
+      "offset": 4695,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
       "kind": "Array",
-      "offset": 5702,
+      "offset": 5733,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
       "kind": "IntegerLiteral",
-      "offset": 6580,
+      "offset": 6611,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
       "kind": "IntegerLiteral",
-      "offset": 6598,
+      "offset": 6629,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
       "kind": "IntegerLiteral",
-      "offset": 6616,
+      "offset": 6647,
       "length": 1,
       "value": "2"
     },

@@ -4,6 +4,8 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreVideo
 import Foundation
+import MetalKit
+import ModelIO
 @_exported import PhyKit
 import SceneKit
 import Swift
@@ -16,6 +18,10 @@ public class PHYAction {
   public init(rigidBody: PhyKit.PHYRigidBody, duration: Foundation.TimeInterval, setup: PhyKit.PHYAction.SetupBlock? = nil, action: PhyKit.PHYAction.ActionBlock? = nil)
   public func run()
   public func stop()
+  @objc deinit
+}
+@objc public class PHYCharacterController : PhyKit.CPHYCharacterController {
+  public init(entity: PhyKit.PHYRigidBody, moveSpeed: Swift.Float)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class PHYDisplayLink {

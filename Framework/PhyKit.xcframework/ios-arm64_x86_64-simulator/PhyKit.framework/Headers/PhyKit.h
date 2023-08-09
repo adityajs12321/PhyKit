@@ -21,5 +21,6 @@
 #import "CPHYRigidBody.h"
 #import "CPHYConstraint.h"
 #import "CPHYRaycastVehicle.h"
+#import "CPHYCharacterController.h"
 
 #endif /* PhyKit_h */
