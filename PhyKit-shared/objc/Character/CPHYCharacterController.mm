@@ -31,7 +31,6 @@
     if (self) {
         _entity = rigidBody.c_body;
         pMoveSpeed = moveSpeed;
-        _entity->setInvInertiaDiagLocal(btVector3(0,1,0));
         _entity->setAngularFactor(btVector3(0, 1, 0));
     }
     return self;
