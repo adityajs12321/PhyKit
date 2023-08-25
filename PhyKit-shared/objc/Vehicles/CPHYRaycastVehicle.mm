@@ -57,7 +57,7 @@
         wheelDirectionCS0 = btVector3(0 ,-1, 0);
         isFrontWheel = true;
         
-        _suspensionRestLength = btScalar(0.7);
+        _suspensionRestLength = btScalar(suspensionRestLength);
         
         _m_wheelShape = new btCylinderShapeX(btVector3(wheelWidth,wheelRadius,wheelRadius));
         
