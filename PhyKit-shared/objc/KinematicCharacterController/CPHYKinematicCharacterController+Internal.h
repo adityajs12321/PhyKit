@@ -14,7 +14,9 @@
 
 @interface CPHYKinematicCharacterController ()
 
-@property (nonatomic, readonly) btRigidBody* entity;
+@property (nonatomic, assign) btPairCachingGhostObject* playerGhostObject;
+@property (nonatomic, assign) btCapsuleShape* playerShape;
+@property (nonatomic, assign) btKinematicCharacterController* characterController;
 
 @end
 

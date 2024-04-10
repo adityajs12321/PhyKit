@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
-// swift-module-flags: -target arm64-apple-macos11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PhyKit
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-macos11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PhyKit
 import CoreVideo
 import Foundation
 import MetalKit
@@ -11,6 +10,7 @@ import SceneKit
 import Swift
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 public class PHYAction {
   public typealias SetupBlock = ((_ rigidBody: PhyKit.PHYRigidBody) -> (Any?))
   public typealias ActionBlock = ((_ percent: Foundation.TimeInterval, _ rigidBody: PhyKit.PHYRigidBody, _ setupInfo: Any?) -> ())
@@ -277,6 +277,10 @@ public class PHYRaycastResult {
 public class PHYCollisionShapeCompound : PhyKit.PHYCollisionShape {
   final public let internalShape: PhyKit.CPHYCollisionShape
   public init(collisionShapes: [any PhyKit.PHYCollisionShape], transform: PhyKit.PHYMatrix4 = PHYMatrix4MakeIdentity(), margin: Swift.Float = 0.04)
+  @objc deinit
+}
+@objc public class PHYKinematicCharacter : PhyKit.CPHYKinematicCharacterController {
+  public init(entity: PhyKit.PHYRigidBody, shapeRadius: Swift.Float, shapeHeight: Swift.Float, stepHeight: Swift.Float, world: PhyKit.PHYWorld)
   @objc deinit
 }
 @objc public class PHYRaycastVehicle : PhyKit.CPHYRaycastVehicle {

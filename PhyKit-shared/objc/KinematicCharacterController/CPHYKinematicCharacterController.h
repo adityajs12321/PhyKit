@@ -10,12 +10,10 @@
 NS_ASSUME_NONNULL_BEGIN
 
 struct PHYVector3;
+@class CPHYRigidBody;
+@class CPHYWorld;
 
 @interface CPHYKinematicCharacterController : NSObject
-
-@property (nonatomic, assign) btPairCachingGhostObject* playerGhostObject;
-@property (nonatomic, assign) btCapsuleShape* playerShape;
-@property (nonatomic, assign) btKinematicCharacterController* characterController;
 
 -(instancetype)initWithEntity: (CPHYRigidBody*)rigidBody shapeRadius:(float)radius shapeHeight:(float)height stepHeight: (float)stepHeight world:(CPHYWorld*)world;
 

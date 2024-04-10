@@ -2294,7 +2294,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "PhyKit.PHYSceneUpdateDelegate?"
+                "printedName": "(any PhyKit.PHYSceneUpdateDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -2319,12 +2319,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "PhyKit.PHYSceneUpdateDelegate?",
+                    "printedName": "(any PhyKit.PHYSceneUpdateDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "PHYSceneUpdateDelegate",
-                        "printedName": "PhyKit.PHYSceneUpdateDelegate",
+                        "printedName": "any PhyKit.PHYSceneUpdateDelegate",
                         "usr": "s:6PhyKit22PHYSceneUpdateDelegateP"
                       }
                     ],
@@ -2351,12 +2351,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "PhyKit.PHYSceneUpdateDelegate?",
+                    "printedName": "(any PhyKit.PHYSceneUpdateDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "PHYSceneUpdateDelegate",
-                        "printedName": "PhyKit.PHYSceneUpdateDelegate",
+                        "printedName": "any PhyKit.PHYSceneUpdateDelegate",
                         "usr": "s:6PhyKit22PHYSceneUpdateDelegateP"
                       }
                     ],
@@ -3967,7 +3967,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "PHYCollisionShape",
-                "printedName": "PhyKit.PHYCollisionShape",
+                "printedName": "any PhyKit.PHYCollisionShape",
                 "usr": "s:6PhyKit17PHYCollisionShapeP"
               }
             ],
@@ -4148,7 +4148,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "PhyKit.PHYWorldSimulationDelegate?"
+                "printedName": "(any PhyKit.PHYWorldSimulationDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -4173,12 +4173,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "PhyKit.PHYWorldSimulationDelegate?",
+                    "printedName": "(any PhyKit.PHYWorldSimulationDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "PHYWorldSimulationDelegate",
-                        "printedName": "PhyKit.PHYWorldSimulationDelegate",
+                        "printedName": "any PhyKit.PHYWorldSimulationDelegate",
                         "usr": "s:6PhyKit26PHYWorldSimulationDelegateP"
                       }
                     ],
@@ -4205,12 +4205,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "PhyKit.PHYWorldSimulationDelegate?",
+                    "printedName": "(any PhyKit.PHYWorldSimulationDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "PHYWorldSimulationDelegate",
-                        "printedName": "PhyKit.PHYWorldSimulationDelegate",
+                        "printedName": "any PhyKit.PHYWorldSimulationDelegate",
                         "usr": "s:6PhyKit26PHYWorldSimulationDelegateP"
                       }
                     ],
@@ -4252,7 +4252,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "PhyKit.PHYWorldCollisionDelegate?"
+                "printedName": "(any PhyKit.PHYWorldCollisionDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -4277,12 +4277,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "PhyKit.PHYWorldCollisionDelegate?",
+                    "printedName": "(any PhyKit.PHYWorldCollisionDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "PHYWorldCollisionDelegate",
-                        "printedName": "PhyKit.PHYWorldCollisionDelegate",
+                        "printedName": "any PhyKit.PHYWorldCollisionDelegate",
                         "usr": "s:6PhyKit25PHYWorldCollisionDelegateP"
                       }
                     ],
@@ -4309,12 +4309,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "PhyKit.PHYWorldCollisionDelegate?",
+                    "printedName": "(any PhyKit.PHYWorldCollisionDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "PHYWorldCollisionDelegate",
-                        "printedName": "PhyKit.PHYWorldCollisionDelegate",
+                        "printedName": "any PhyKit.PHYWorldCollisionDelegate",
                         "usr": "s:6PhyKit25PHYWorldCollisionDelegateP"
                       }
                     ],
@@ -4356,7 +4356,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "PhyKit.PHYWorldTriggerDelegate?"
+                "printedName": "(any PhyKit.PHYWorldTriggerDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -4381,12 +4381,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "PhyKit.PHYWorldTriggerDelegate?",
+                    "printedName": "(any PhyKit.PHYWorldTriggerDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "PHYWorldTriggerDelegate",
-                        "printedName": "PhyKit.PHYWorldTriggerDelegate",
+                        "printedName": "any PhyKit.PHYWorldTriggerDelegate",
                         "usr": "s:6PhyKit23PHYWorldTriggerDelegateP"
                       }
                     ],
@@ -4413,12 +4413,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "PhyKit.PHYWorldTriggerDelegate?",
+                    "printedName": "(any PhyKit.PHYWorldTriggerDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "PHYWorldTriggerDelegate",
-                        "printedName": "PhyKit.PHYWorldTriggerDelegate",
+                        "printedName": "any PhyKit.PHYWorldTriggerDelegate",
                         "usr": "s:6PhyKit23PHYWorldTriggerDelegateP"
                       }
                     ],
@@ -5644,7 +5644,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "PHYCollisionShape",
-                "printedName": "PhyKit.PHYCollisionShape",
+                "printedName": "any PhyKit.PHYCollisionShape",
                 "usr": "s:6PhyKit17PHYCollisionShapeP"
               }
             ],
@@ -6156,12 +6156,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[PhyKit.PHYCollisionShape]",
+                "printedName": "[any PhyKit.PHYCollisionShape]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "PHYCollisionShape",
-                    "printedName": "PhyKit.PHYCollisionShape",
+                    "printedName": "any PhyKit.PHYCollisionShape",
                     "usr": "s:6PhyKit17PHYCollisionShapeP"
                   }
                 ],
@@ -6222,6 +6222,220 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "PHYKinematicCharacter",
+        "printedName": "PHYKinematicCharacter",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(entity:shapeRadius:shapeHeight:stepHeight:world:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PHYKinematicCharacter",
+                "printedName": "PhyKit.PHYKinematicCharacter",
+                "usr": "c:@M@PhyKit@objc(cs)PHYKinematicCharacter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PHYRigidBody",
+                "printedName": "PhyKit.PHYRigidBody",
+                "usr": "c:@M@PhyKit@objc(cs)PHYRigidBody"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PHYWorld",
+                "printedName": "PhyKit.PHYWorld",
+                "usr": "c:@M@PhyKit@objc(cs)PHYWorld"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6PhyKit21PHYKinematicCharacterC6entity11shapeRadius0F6Height04stepH05worldAcA12PHYRigidBodyC_S3fAA8PHYWorldCtcfc",
+            "mangledName": "$s6PhyKit21PHYKinematicCharacterC6entity11shapeRadius0F6Height04stepH05worldAcA12PHYRigidBodyC_S3fAA8PHYWorldCtcfc",
+            "moduleName": "PhyKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(entity:shapeRadius:shapeHeight:stepHeight:world:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PHYKinematicCharacter",
+                "printedName": "PhyKit.PHYKinematicCharacter",
+                "usr": "c:@M@PhyKit@objc(cs)PHYKinematicCharacter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPHYRigidBody",
+                "printedName": "PhyKit.CPHYRigidBody",
+                "usr": "c:objc(cs)CPHYRigidBody"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPHYWorld",
+                "printedName": "PhyKit.CPHYWorld",
+                "usr": "c:objc(cs)CPHYWorld"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PhyKit@objc(cs)PHYKinematicCharacter(im)initWithEntity:shapeRadius:shapeHeight:stepHeight:world:",
+            "mangledName": "$s6PhyKit21PHYKinematicCharacterC6entity11shapeRadius0F6Height04stepH05worldACSo13CPHYRigidBodyC_S3fSo9CPHYWorldCtcfc",
+            "moduleName": "PhyKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithEntity:shapeRadius:shapeHeight:stepHeight:world:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PHYKinematicCharacter",
+                "printedName": "PhyKit.PHYKinematicCharacter",
+                "usr": "c:@M@PhyKit@objc(cs)PHYKinematicCharacter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PhyKit@objc(cs)PHYKinematicCharacter(im)init",
+            "mangledName": "$s6PhyKit21PHYKinematicCharacterCACycfc",
+            "moduleName": "PhyKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PhyKit@objc(cs)PHYKinematicCharacter",
+        "mangledName": "$s6PhyKit21PHYKinematicCharacterC",
+        "moduleName": "PhyKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)CPHYKinematicCharacterController",
+        "superclassNames": [
+          "PhyKit.CPHYKinematicCharacterController",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "PHYRaycastVehicle",
         "printedName": "PHYRaycastVehicle",
         "children": [
@@ -6239,7 +6453,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "PHYCollisionShape",
-                "printedName": "PhyKit.PHYCollisionShape",
+                "printedName": "any PhyKit.PHYCollisionShape",
                 "usr": "s:6PhyKit17PHYCollisionShapeP"
               },
               {
@@ -7657,777 +7871,273 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
       "kind": "IntegerLiteral",
       "offset": 539,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
       "kind": "IntegerLiteral",
       "offset": 682,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
       "kind": "IntegerLiteral",
       "offset": 767,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
       "kind": "IntegerLiteral",
       "offset": 892,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
       "kind": "BooleanLiteral",
       "offset": 929,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2374,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2535,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2572,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2612,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2656,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2771,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Character\/PHYCharacterController.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/Character\/PHYCharacterController.swift",
       "kind": "StringLiteral",
       "offset": 123,
       "length": 22,
       "value": "\"PhyKit.PHYCharacterController\""
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Character\/PHYCharacterController.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/Character\/PHYCharacterController.swift",
       "kind": "StringLiteral",
       "offset": 123,
       "length": 22,
       "value": "\"PhyKit.PHYCharacterController\""
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-macos\/swift\/PHYDisplayLink.swift",
-      "kind": "StringLiteral",
-      "offset": 469,
-      "length": 32,
-      "value": "\"Unable to create CVDisplayLink\""
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeStaticPlane.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeStaticPlane.swift",
       "kind": "IntegerLiteral",
       "offset": 463,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeStaticPlane.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeStaticPlane.swift",
       "kind": "IntegerLiteral",
       "offset": 466,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeStaticPlane.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeStaticPlane.swift",
       "kind": "IntegerLiteral",
       "offset": 469,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeStaticPlane.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeStaticPlane.swift",
       "kind": "FloatLiteral",
       "offset": 539,
       "length": 4,
       "value": "0.04"
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 493,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 495,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 497,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 996,
-      "length": 3,
-      "value": "180"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1011,
-      "length": 3,
-      "value": "180"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1026,
-      "length": 3,
-      "value": "180"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1156,
-      "length": 3,
-      "value": "180"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1171,
-      "length": 3,
-      "value": "180"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1186,
-      "length": 3,
-      "value": "180"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1278,
-      "length": 3,
-      "value": "180"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1293,
-      "length": 3,
-      "value": "180"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1308,
-      "length": 3,
-      "value": "180"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1388,
-      "length": 3,
-      "value": "180"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1403,
-      "length": 3,
-      "value": "180"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1418,
-      "length": 3,
-      "value": "180"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2843,
-      "length": 3,
-      "value": "180"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2904,
-      "length": 3,
-      "value": "180"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2961,
-      "length": 3,
-      "value": "180"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3005,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3039,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3083,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3118,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3158,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Extensions\/PHYStructConversions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3189,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
       "kind": "BooleanLiteral",
       "offset": 360,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
-      "kind": "StringLiteral",
-      "offset": 932,
-      "length": 18,
-      "value": "\"startOrientation\""
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
-      "kind": "StringLiteral",
-      "offset": 977,
-      "length": 16,
-      "value": "\"endOrientation\""
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
-      "kind": "StringLiteral",
-      "offset": 1226,
-      "length": 18,
-      "value": "\"startOrientation\""
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
-      "kind": "StringLiteral",
-      "offset": 1278,
-      "length": 16,
-      "value": "\"endOrientation\""
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
       "kind": "BooleanLiteral",
       "offset": 2099,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
-      "kind": "StringLiteral",
-      "offset": 2590,
-      "length": 18,
-      "value": "\"startOrientation\""
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
-      "kind": "StringLiteral",
-      "offset": 2635,
-      "length": 16,
-      "value": "\"endOrientation\""
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
-      "kind": "StringLiteral",
-      "offset": 2884,
-      "length": 18,
-      "value": "\"startOrientation\""
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Orient.swift",
-      "kind": "StringLiteral",
-      "offset": 2936,
-      "length": 16,
-      "value": "\"endOrientation\""
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Scene\/PHYScene.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/Scene\/PHYScene.swift",
       "kind": "Dictionary",
       "offset": 663,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Scene\/PHYScene.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/Scene\/PHYScene.swift",
       "kind": "Dictionary",
       "offset": 741,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Constraints\/PHYConstraint.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/Constraints\/PHYConstraint.swift",
       "kind": "StringLiteral",
       "offset": 114,
       "length": 13,
       "value": "\"PhyKit.PHYConstraint\""
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Constraints\/PHYConstraint.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/Constraints\/PHYConstraint.swift",
       "kind": "StringLiteral",
       "offset": 114,
       "length": 13,
       "value": "\"PhyKit.PHYConstraint\""
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeGeometry.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeGeometry.swift",
       "kind": "FloatLiteral",
       "offset": 607,
       "length": 4,
       "value": "0.04"
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
-      "kind": "Array",
-      "offset": 1066,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
-      "kind": "Array",
-      "offset": 1607,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
-      "kind": "Array",
-      "offset": 1825,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1878,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1914,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2172,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2715,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
-      "kind": "Array",
-      "offset": 2852,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2897,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3187,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3875,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3903,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4075,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4385,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4695,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
-      "kind": "Array",
-      "offset": 5733,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6611,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6629,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Geometry\/PHYGeometry.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6647,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeCapsule.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeCapsule.swift",
       "kind": "FloatLiteral",
       "offset": 449,
       "length": 4,
       "value": "0.04"
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeBox.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeBox.swift",
       "kind": "FloatLiteral",
       "offset": 451,
       "length": 4,
       "value": "0.04"
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeCylinder.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeCylinder.swift",
       "kind": "FloatLiteral",
       "offset": 452,
       "length": 4,
       "value": "0.04"
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/RigidBodies\/PHYRigidBody.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/RigidBodies\/PHYRigidBody.swift",
       "kind": "StringLiteral",
       "offset": 268,
       "length": 12,
       "value": "\"PhyKit.PHYRigidBody\""
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/RigidBodies\/PHYRigidBody.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/RigidBodies\/PHYRigidBody.swift",
       "kind": "StringLiteral",
       "offset": 268,
       "length": 12,
       "value": "\"PhyKit.PHYRigidBody\""
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
       "kind": "IntegerLiteral",
       "offset": 1043,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
       "kind": "Array",
       "offset": 1210,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
       "kind": "Array",
       "offset": 1257,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
       "kind": "Array",
       "offset": 1310,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
       "kind": "Dictionary",
       "offset": 1376,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
       "kind": "Dictionary",
       "offset": 1450,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
       "kind": "Dictionary",
       "offset": 1517,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
       "kind": "Dictionary",
       "offset": 1587,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3395,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
-      "kind": "Array",
-      "offset": 3675,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
-      "kind": "Array",
-      "offset": 3697,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
-      "kind": "Array",
-      "offset": 3722,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
-      "kind": "Dictionary",
-      "offset": 3750,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
-      "kind": "Dictionary",
-      "offset": 3787,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
-      "kind": "Array",
-      "offset": 4226,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
-      "kind": "Dictionary",
-      "offset": 5138,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/World\/PHYWorld.swift",
-      "kind": "Dictionary",
-      "offset": 5858,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeSphere.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeSphere.swift",
       "kind": "FloatLiteral",
       "offset": 431,
       "length": 4,
       "value": "0.04"
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Actions\/PHYAction+Move.swift",
-      "kind": "FloatLiteral",
-      "offset": 1999,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/RigidBodies\/PHYRigidBodyType.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1083,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/RigidBodies\/PHYRigidBodyType.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1140,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/RigidBodies\/PHYRigidBodyType.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1181,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/RigidBodies\/PHYRigidBodyType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1332,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/RigidBodies\/PHYRigidBodyType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1378,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/RigidBodies\/PHYRigidBodyType.swift",
-      "kind": "FloatLiteral",
-      "offset": 1765,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Triggers\/PHYTrigger.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/Triggers\/PHYTrigger.swift",
       "kind": "StringLiteral",
       "offset": 309,
       "length": 10,
       "value": "\"PhyKit.PHYTrigger\""
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Triggers\/PHYTrigger.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/Triggers\/PHYTrigger.swift",
       "kind": "StringLiteral",
       "offset": 309,
       "length": 10,
       "value": "\"PhyKit.PHYTrigger\""
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeCompound.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/CollisionShapes\/PHYCollisionShapeCompound.swift",
       "kind": "FloatLiteral",
       "offset": 472,
       "length": 4,
       "value": "0.04"
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Vehicles\/PHYRaycastVehicle.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/KinematicCharacter\/PHYKinematicCharacter.swift",
+      "kind": "StringLiteral",
+      "offset": 123,
+      "length": 21,
+      "value": "\"PhyKit.PHYKinematicCharacter\""
+    },
+    {
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/KinematicCharacter\/PHYKinematicCharacter.swift",
+      "kind": "StringLiteral",
+      "offset": 123,
+      "length": 21,
+      "value": "\"PhyKit.PHYKinematicCharacter\""
+    },
+    {
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/Vehicles\/PHYRaycastVehicle.swift",
       "kind": "StringLiteral",
       "offset": 118,
       "length": 17,
       "value": "\"PhyKit.PHYRaycastVehicle\""
     },
     {
-      "filePath": "\/Users\/sunil390\/Github\/PhyKit\/PhyKit-shared\/swift\/Vehicles\/PHYRaycastVehicle.swift",
+      "filePath": "\/Users\/aditya_js\/Github\/PhyKit\/PhyKit-shared\/swift\/Vehicles\/PHYRaycastVehicle.swift",
       "kind": "StringLiteral",
       "offset": 118,
       "length": 17,
