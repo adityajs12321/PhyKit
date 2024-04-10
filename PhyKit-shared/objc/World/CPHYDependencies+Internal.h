@@ -14,6 +14,7 @@
 
 #import "btBulletDynamicsCommon.h"
 #import "btGhostObject.h"
+#import "btKinematicCharacterController.h"
 #import "btBulletWorldImporter.h"
 #pragma clang diagnostic pop
 

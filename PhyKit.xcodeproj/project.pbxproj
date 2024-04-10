@@ -33,6 +33,14 @@
 		7DB0DD812A2F67ED009B9F0E /* CPHYWorld+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DB0DD7F2A2F67ED009B9F0E /* CPHYWorld+Internal.h */; };
 		7DF2ACEB2A31817400695D96 /* PHYRaycastVehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF2ACEA2A31817400695D96 /* PHYRaycastVehicle.swift */; };
 		7DF2ACEC2A31817400695D96 /* PHYRaycastVehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF2ACEA2A31817400695D96 /* PHYRaycastVehicle.swift */; };
+		D51D2D1F2BC587CB000AEE7B /* CPHYKinematicCharacterController.mm in Sources */ = {isa = PBXBuildFile; fileRef = D51D2D1E2BC587CB000AEE7B /* CPHYKinematicCharacterController.mm */; };
+		D51D2D202BC587CB000AEE7B /* CPHYKinematicCharacterController.mm in Sources */ = {isa = PBXBuildFile; fileRef = D51D2D1E2BC587CB000AEE7B /* CPHYKinematicCharacterController.mm */; };
+		D51D2D222BC587F9000AEE7B /* CPHYKinematicCharacterController.h in Headers */ = {isa = PBXBuildFile; fileRef = D51D2D212BC587F9000AEE7B /* CPHYKinematicCharacterController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D51D2D232BC587F9000AEE7B /* CPHYKinematicCharacterController.h in Headers */ = {isa = PBXBuildFile; fileRef = D51D2D212BC587F9000AEE7B /* CPHYKinematicCharacterController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D51D2D252BC5882A000AEE7B /* CPHYKinematicCharacterController+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = D51D2D242BC5882A000AEE7B /* CPHYKinematicCharacterController+Internal.h */; };
+		D51D2D262BC5882A000AEE7B /* CPHYKinematicCharacterController+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = D51D2D242BC5882A000AEE7B /* CPHYKinematicCharacterController+Internal.h */; };
+		D5D8E52C2BC69C8B0061A074 /* PHYKinematicCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D8E52B2BC69C8B0061A074 /* PHYKinematicCharacter.swift */; };
+		D5D8E52D2BC69C8B0061A074 /* PHYKinematicCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D8E52B2BC69C8B0061A074 /* PHYKinematicCharacter.swift */; };
 		F3A560EA25A36A91006D6778 /* PhyKit_osUmbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A560E825A36A91006D6778 /* PhyKit_osUmbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3A560F825A36AA9006D6778 /* PhyKit_osUmbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A560F625A36AA9006D6778 /* PhyKit_osUmbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3A5701B25A376A8006D6778 /* btStaticPlaneShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3A56FE625A37692006D6778 /* btStaticPlaneShape.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
@@ -479,6 +487,10 @@
 		7DB0DD7C2A2F37AA009B9F0E /* CPHYRaycastVehicle+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPHYRaycastVehicle+Internal.h"; sourceTree = "<group>"; };
 		7DB0DD7F2A2F67ED009B9F0E /* CPHYWorld+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPHYWorld+Internal.h"; sourceTree = "<group>"; };
 		7DF2ACEA2A31817400695D96 /* PHYRaycastVehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHYRaycastVehicle.swift; sourceTree = "<group>"; };
+		D51D2D1E2BC587CB000AEE7B /* CPHYKinematicCharacterController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CPHYKinematicCharacterController.mm; sourceTree = "<group>"; };
+		D51D2D212BC587F9000AEE7B /* CPHYKinematicCharacterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPHYKinematicCharacterController.h; sourceTree = "<group>"; };
+		D51D2D242BC5882A000AEE7B /* CPHYKinematicCharacterController+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPHYKinematicCharacterController+Internal.h"; sourceTree = "<group>"; };
+		D5D8E52B2BC69C8B0061A074 /* PHYKinematicCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHYKinematicCharacter.swift; sourceTree = "<group>"; };
 		F3A560E525A36A90006D6778 /* PhyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A560E825A36A91006D6778 /* PhyKit_osUmbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhyKit_osUmbrella.h; sourceTree = "<group>"; };
 		F3A560E925A36A91006D6778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1016,6 +1028,24 @@
 				7DF2ACEA2A31817400695D96 /* PHYRaycastVehicle.swift */,
 			);
 			path = Vehicles;
+			sourceTree = "<group>";
+		};
+		D51D2D1D2BC587A8000AEE7B /* KinematicCharacterController */ = {
+			isa = PBXGroup;
+			children = (
+				D51D2D1E2BC587CB000AEE7B /* CPHYKinematicCharacterController.mm */,
+				D51D2D212BC587F9000AEE7B /* CPHYKinematicCharacterController.h */,
+				D51D2D242BC5882A000AEE7B /* CPHYKinematicCharacterController+Internal.h */,
+			);
+			path = KinematicCharacterController;
+			sourceTree = "<group>";
+		};
+		D5D8E52A2BC69C760061A074 /* KinematicCharacter */ = {
+			isa = PBXGroup;
+			children = (
+				D5D8E52B2BC69C8B0061A074 /* PHYKinematicCharacter.swift */,
+			);
+			path = KinematicCharacter;
 			sourceTree = "<group>";
 		};
 		F3A560D925A36A5D006D6778 = {
@@ -1559,6 +1589,7 @@
 		F3A571CD25A37725006D6778 /* objc */ = {
 			isa = PBXGroup;
 			children = (
+				D51D2D1D2BC587A8000AEE7B /* KinematicCharacterController */,
 				7D0B56992A838F9F00C23BF7 /* Character */,
 				7DB0DD782A2F35E3009B9F0E /* Vehicles */,
 				7D4285DA29DB1BC5005EA9BB /* Constraints */,
@@ -1644,6 +1675,7 @@
 		F3A5722425A37773006D6778 /* swift */ = {
 			isa = PBXGroup;
 			children = (
+				D5D8E52A2BC69C760061A074 /* KinematicCharacter */,
 				7D0B56982A838F6500C23BF7 /* Character */,
 				7DF2ACE92A31815C00695D96 /* Vehicles */,
 				7D55C14029DAB88C0021836F /* Constraints */,
@@ -1844,7 +1876,9 @@
 				F3A5720825A37725006D6778 /* CPHYCollisionShape.h in Headers */,
 				F3A560EA25A36A91006D6778 /* PhyKit_osUmbrella.h in Headers */,
 				F3A571F825A37725006D6778 /* CPHYTrigger.h in Headers */,
+				D51D2D252BC5882A000AEE7B /* CPHYKinematicCharacterController+Internal.h in Headers */,
 				7D4285E229DB1E88005EA9BB /* CPHYConstraint+Internal.h in Headers */,
+				D51D2D222BC587F9000AEE7B /* CPHYKinematicCharacterController.h in Headers */,
 				F3A571F025A37725006D6778 /* CPHYStructs+Internal.h in Headers */,
 				F3A5720A25A37725006D6778 /* CPHYMesh.h in Headers */,
 				F3A5720625A37725006D6778 /* CPHYCollisionShape+Internal.h in Headers */,
@@ -1876,7 +1910,9 @@
 				F3A5720925A37725006D6778 /* CPHYCollisionShape.h in Headers */,
 				F3A560F825A36AA9006D6778 /* PhyKit_osUmbrella.h in Headers */,
 				F3A571F925A37725006D6778 /* CPHYTrigger.h in Headers */,
+				D51D2D262BC5882A000AEE7B /* CPHYKinematicCharacterController+Internal.h in Headers */,
 				7D4285E329DB1E88005EA9BB /* CPHYConstraint+Internal.h in Headers */,
+				D51D2D232BC587F9000AEE7B /* CPHYKinematicCharacterController.h in Headers */,
 				F3A571F125A37725006D6778 /* CPHYStructs+Internal.h in Headers */,
 				F3A5720B25A37725006D6778 /* CPHYMesh.h in Headers */,
 				F3A5720725A37725006D6778 /* CPHYCollisionShape+Internal.h in Headers */,
@@ -2170,6 +2206,7 @@
 				7DB0DD7A2A2F3613009B9F0E /* CPHYRaycastVehicle.mm in Sources */,
 				F3A5703925A376A8006D6778 /* btBoxBoxDetector.cpp in Sources */,
 				F3A5717125A376D1006D6778 /* btFixedConstraint.cpp in Sources */,
+				D51D2D1F2BC587CB000AEE7B /* CPHYKinematicCharacterController.mm in Sources */,
 				F3A5703C25A376A8006D6778 /* btConvexShape.cpp in Sources */,
 				F3A5706025A376A8006D6778 /* btConvex2dConvex2dAlgorithm.cpp in Sources */,
 				F3A5724E25A37773006D6778 /* PHYWorldTriggerDelegate.swift in Sources */,
@@ -2197,6 +2234,7 @@
 				F3A5704125A376A8006D6778 /* btMiniSDF.cpp in Sources */,
 				F3A5704425A376A8006D6778 /* btBox2dShape.cpp in Sources */,
 				F3A5715725A376D1006D6778 /* btSliderConstraint.cpp in Sources */,
+				D5D8E52C2BC69C8B0061A074 /* PHYKinematicCharacter.swift in Sources */,
 				7DF2ACEB2A31817400695D96 /* PHYRaycastVehicle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2380,6 +2418,7 @@
 				7DB0DD7B2A2F3613009B9F0E /* CPHYRaycastVehicle.mm in Sources */,
 				F3A5709C25A376A9006D6778 /* btBoxBoxDetector.cpp in Sources */,
 				F3A5719C25A376D2006D6778 /* btFixedConstraint.cpp in Sources */,
+				D51D2D202BC587CB000AEE7B /* CPHYKinematicCharacterController.mm in Sources */,
 				F3A5709F25A376A9006D6778 /* btConvexShape.cpp in Sources */,
 				F3A570C325A376A9006D6778 /* btConvex2dConvex2dAlgorithm.cpp in Sources */,
 				F3A5724F25A37773006D6778 /* PHYWorldTriggerDelegate.swift in Sources */,
@@ -2407,6 +2446,7 @@
 				F3A570A425A376A9006D6778 /* btMiniSDF.cpp in Sources */,
 				F3A570A725A376A9006D6778 /* btBox2dShape.cpp in Sources */,
 				F3A5718225A376D2006D6778 /* btSliderConstraint.cpp in Sources */,
+				D5D8E52D2BC69C8B0061A074 /* PHYKinematicCharacter.swift in Sources */,
 				7DF2ACEC2A31817400695D96 /* PHYRaycastVehicle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
