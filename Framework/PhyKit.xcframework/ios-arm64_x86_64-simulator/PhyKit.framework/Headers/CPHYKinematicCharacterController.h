@@ -17,6 +17,10 @@ struct PHYVector3;
 
 -(instancetype)initWithEntity: (CPHYRigidBody*)rigidBody shapeRadius:(float)radius shapeHeight:(float)height stepHeight: (float)stepHeight world:(CPHYWorld*)world;
 
+-(void) setWalkDirection:(struct PHYVector3)direction;
+
+-(void) jump:(float)jumpSpeed;
+
 @end
 
 NS_ASSUME_NONNULL_END
